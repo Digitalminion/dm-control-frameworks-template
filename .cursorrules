@@ -1,0 +1,69 @@
+# Cursor Agent Configuration for NIST Documentation Repository
+
+## Primary Reference
+ALWAYS read `methods/agent.md` FIRST before responding to any prompts. This file contains:
+- Complete AI agent guidance and standards
+- File header format requirements with dynamic line counting
+- AI comment system and folder navigation protocols
+- Template usage and quality standards
+- Content update protocols and validation rules
+
+## Dynamic Context Loading
+When working on any task:
+1. **Read `methods/agent.md`** - Contains all AI standards and protocols
+2. **Check current folder README** - Read README.md in the current folder for context
+3. **Check `methods/templates/`** - Look for appropriate `.tpl.md` templates
+4. **Follow folder navigation protocol** - Use folder-specific AI guidance
+
+## File Header Standards
+All markdown files use a standardized AI header format:
+- BEGIN AI HEADER: X LINES (dynamic line count)
+- AI FILE SUMMARY with metadata fields (TOPICS, CONTENT, RELATED, RATING, PURPOSE, UPDATE, UPDATED)
+- AI COMMENT blocks for contextual guidance
+- AI INSTRUCTION blocks for specific AI guidance
+- END AI HEADER: X LINES
+
+## Folder Navigation Protocol
+When working in any folder:
+1. FIRST read the README.md file in that folder
+2. Parse the AI header for folder-specific guidance
+3. Look for "WHEN YOU NEED" and "IMMEDIATE ACTIONS" sections
+4. Follow the folder's AI instructions for finding relevant content
+
+## Template Usage
+When creating new documentation:
+1. Check `methods/templates/` folder for appropriate templates
+2. Use `.tpl.md` files as templates (e.g., `README.tpl.md`)
+3. Follow template structure and instructions exactly
+4. Update line counts when modifying headers
+5. Get current date before updating UPDATED field
+
+## Quality Standards
+All documentation must meet:
+- Consistency with established patterns
+- Accuracy reflecting current organizational state
+- Completeness with all required sections
+- Clarity for intended audiences
+
+## Line Counting Methodology
+- Count actual file lines from line 1 to the line containing END AI HEADER: X LINES
+- The line number where "END AI HEADER" appears in your IDE is the total header line count
+- Update "BEGIN AI HEADER: X LINES" to match the END line number
+
+## Content Update Protocol
+1. Get current date: PowerShell "Get-Date -Format 'yyyy-MM-dd'" or Unix "date +%Y-%m-%d"
+2. Update header content as needed
+3. Set UPDATED field to current date from step 1
+4. Count header lines and update "BEGIN AI HEADER: X LINES"
+5. Ensure all metadata fields are accurate and complete
+6. Add AI comments for contextual guidance where appropriate
+7. Validate file follows established patterns
+8. Check completeness and quality standards
+
+## Key Requirements
+- Always use the AI header format with dynamic line counting
+- Update line counts when modifying headers
+- Get current date before updating UPDATED field
+- Add AI comments for contextual guidance
+- Follow template-driven approach for context files
+- Maintain quality standards for all documentation 
