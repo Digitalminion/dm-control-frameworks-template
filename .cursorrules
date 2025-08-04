@@ -1,4 +1,18 @@
-# Cursor Agent Configuration for NIST Documentation Repository
+# Dual Agent Configuration for NIST Documentation Repository
+
+## Agent Role Selection
+
+This repository supports **two specialized AI agents**:
+
+### 1. Documentation Agent (Primary)
+**Purpose**: Creates and manages NIST documentation using templates
+**Focus**: Content creation, documentation maintenance, quality assurance
+**When to use**: Creating new documentation, updating existing files, generating context files
+
+### 2. Template Improvement Agent (Secondary)
+**Purpose**: Improves core template repository to enhance documentation agent effectiveness
+**Focus**: Template optimization, workflow improvement, quality standards enhancement
+**When to use**: Improving templates, enhancing agent capabilities, optimizing workflows
 
 ## Primary Reference
 ALWAYS read `methods/agent.md` FIRST before responding to any prompts. This file contains:
@@ -8,12 +22,25 @@ ALWAYS read `methods/agent.md` FIRST before responding to any prompts. This file
 - Template usage and quality standards
 - Content update protocols and validation rules
 
+## Agent-Specific Configurations
+
+### Documentation Agent
+- **Configuration**: `development/documentation-agent-config.md`
+- **Focus**: Content creation, template usage, quality assurance
+- **Commands**: Create documentation, update files, generate context
+
+### Template Improvement Agent
+- **Configuration**: `development/template-improvement-agent-config.md`
+- **Focus**: Template optimization, workflow enhancement, quality standards
+- **Commands**: Improve templates, optimize workflows, enhance standards
+
 ## Dynamic Context Loading
 When working on any task:
 1. **Read `methods/agent.md`** - Contains all AI standards and protocols
-2. **Check current folder README** - Read README.md in the current folder for context
-3. **Check `methods/templates/`** - Look for appropriate `.tpl.md` templates
-4. **Follow folder navigation protocol** - Use folder-specific AI guidance
+2. **Determine agent role** - Are you working on documentation or template improvement?
+3. **Check current folder README** - Read README.md in the current folder for context
+4. **Check `methods/templates/`** - Look for appropriate `.tpl.md` templates
+5. **Follow folder navigation protocol** - Use folder-specific AI guidance
 
 ## File Header Standards
 All markdown files use a standardized AI header format:
@@ -60,10 +87,17 @@ All documentation must meet:
 7. Validate file follows established patterns
 8. Check completeness and quality standards
 
+## Agent Collaboration
+- **Documentation Agent** provides feedback on template effectiveness
+- **Template Improvement Agent** enhances templates based on usage feedback
+- **Quality Standards** are continuously improved through collaboration
+- **Workflow Optimization** benefits both agents and users
+
 ## Key Requirements
 - Always use the AI header format with dynamic line counting
 - Update line counts when modifying headers
 - Get current date before updating UPDATED field
 - Add AI comments for contextual guidance
 - Follow template-driven approach for context files
-- Maintain quality standards for all documentation 
+- Maintain quality standards for all documentation
+- Determine appropriate agent role for each task 
