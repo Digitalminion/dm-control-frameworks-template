@@ -36,6 +36,8 @@
 
 # Technology Context
 
+> **Navigation:** [🏠 Root](../../README.md) › [📁 Context](../README.md) › **Technology**
+
 ## Overview
 
 This folder contains documentation about technology infrastructure, systems architecture, and technical environment that influences the selection and implementation of NIST technical controls.

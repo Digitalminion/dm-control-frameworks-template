@@ -36,27 +36,29 @@
 
 # Context
 
+> **Navigation:** [🏠 Root](../README.md) › **Context**
+
 ## Overview
 
 This folder contains organizational context documentation that provides essential background information for effective NIST control implementation. Context information ensures that recommendations and implementations are tailored to specific organizational needs, capabilities, and constraints.
 
 ## What You'll Find Here
 
-### Organization Context (`organization/`)
+### Organization Context ([`organization/`](organization/README.md))
 Documentation about organizational structure, culture, and governance that affects control implementation:
 - Organizational profiles and structure
 - Stakeholder information and decision-making processes
 - Resource limitations and operational constraints
 - Business requirements and priorities
 
-### Technology Context (`technology/`)
+### Technology Context ([`technology/`](technology/README.md))
 Documentation about the technology environment and infrastructure:
 - Technology stack documentation
 - Infrastructure architecture and capabilities
 - System inventories and configurations
 - Technical constraints and dependencies
 
-### Risk Context (`risks/`)
+### Risk Context ([`risks/`](risks/README.md))
 Documentation about risk environment and compliance requirements:
 - Risk assessments and profiles
 - Threat landscape and vulnerability information

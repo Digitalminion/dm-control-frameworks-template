@@ -36,6 +36,8 @@
 
 # Organization Context
 
+> **Navigation:** [🏠 Root](../../README.md) › [📁 Context](../README.md) › **Organization**
+
 ## Overview
 
 This folder contains documentation about organizational structure, governance, stakeholders, and operational characteristics that influence NIST control implementation approaches and success factors.

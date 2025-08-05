@@ -55,6 +55,8 @@
 
 # Templates Folder
 
+> **Navigation:** [🏠 Root](../../README.md) › [📁 Methods](../README.md) › **Templates**
+
 ## Overview
 
 This folder contains a **complete suite of standardized templates** for generating consistent documentation across the NIST documentation system. Templates provide AI agents with structured formats and clear instructions for creating both organizational context documentation and comprehensive NIST control documentation.

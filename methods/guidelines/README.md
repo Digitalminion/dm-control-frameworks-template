@@ -36,6 +36,8 @@
 
 # Guidelines
 
+> **Navigation:** [🏠 Root](../../README.md) › [📁 Methods](../README.md) › **Guidelines**
+
 ## Overview
 
 This folder contains best practices, documentation standards, and quality guidelines for NIST documentation and control implementation. These guidelines ensure consistency, quality, and effectiveness across all documentation and implementation efforts.

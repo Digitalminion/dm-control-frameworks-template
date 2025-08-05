@@ -43,6 +43,8 @@
 
 # NIST Special Publication 800-171 Adoption
 
+> **Navigation:** [🏠 Root](../../../../README.md) › [📁 Methods](../../../README.md) › [📁 Adoption](../../README.md) › [📁 Frameworks](../README.md) › **800-171**
+
 ## Overview
 
 This folder contains our detailed approach to adopting NIST Special Publication 800-171. This publication provides requirements for protecting controlled unclassified information (CUI) in nonfederal systems and organizations, with comprehensive coverage across 14 control families.

@@ -44,6 +44,8 @@
 
 # Methods Folder
 
+> **Navigation:** [🏠 Root](../README.md) › **Methods**
+
 ## Overview
 
 This folder contains the methodology, standards, and templates that guide our NIST documentation system. Whether you're setting up new documentation, looking for templates, or understanding our approach to NIST controls, this is where you'll find the foundational guidance.
@@ -51,13 +53,13 @@ This folder contains the methodology, standards, and templates that guide our NI
 ## What You'll Find Here
 
 ### Core Files
-- **`agent.md`** - Complete AI agent guidance and interaction protocols
+- **[`agent.md`](AGENT.md)** - Complete AI agent guidance and interaction protocols
 - **`README.md`** - This folder context guide
 
 ### Subfolders
-- **`templates/`** - Ready-to-use templates for organizational context documentation
-- **`adoption/`** - Our organization's NIST framework adoption strategies and approaches  
-- **`guidelines/`** - Documentation standards and best practices
+- **[`templates/`](templates/README.md)** - Ready-to-use templates for organizational context documentation
+- **[`adoption/`](adoption/README.md)** - Our organization's NIST framework adoption strategies and approaches  
+- **[`guidelines/`](guidelines/README.md)** - Documentation standards and best practices
 
 ## Getting Started
 
