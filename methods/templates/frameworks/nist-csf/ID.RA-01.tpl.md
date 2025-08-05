@@ -1,4 +1,4 @@
-<!-- BEGIN AI HEADER: 85 LINES --> 
+<!-- BEGIN AI HEADER: 120 LINES --> 
 <!-- BEGIN AI FILE SUMMARY --> 
 <!-- 
     TOPICS: nist-csf-id-ra-01, vulnerability-assessment, asset-vulnerabilities, identify-template
@@ -56,7 +56,7 @@
     - Vulnerability management pathways must be clearly defined
 -->
 <!-- END AI INSTRUCTION -->
-<!-- END AI HEADER: 85 LINES --> 
+<!-- END AI HEADER: 120 LINES --> 
 
 # ID.RA-01 - Asset Vulnerabilities Identification
 

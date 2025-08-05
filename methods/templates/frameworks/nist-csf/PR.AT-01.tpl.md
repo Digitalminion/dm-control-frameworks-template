@@ -1,4 +1,4 @@
-<!-- BEGIN AI HEADER: 85 LINES --> 
+<!-- BEGIN AI HEADER: 120 LINES --> 
 <!-- BEGIN AI FILE SUMMARY --> 
 <!-- 
     TOPICS: nist-csf-pr-at-01, cybersecurity-awareness, training-programs, protect-template
@@ -56,7 +56,7 @@
     - Training program pathways must be clearly defined
 -->
 <!-- END AI INSTRUCTION -->
-<!-- END AI HEADER: 85 LINES --> 
+<!-- END AI HEADER: 120 LINES --> 
 
 # PR.AT-01 - Cybersecurity Awareness and Training
 
