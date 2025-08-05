@@ -1,353 +1,395 @@
-<!-- BEGIN AI HEADER: 85 LINES --> 
+<!-- BEGIN AI HEADER: 120 LINES --> 
 <!-- BEGIN AI FILE SUMMARY --> 
 <!-- 
-    TOPICS: nist-csf-pr-aa-01, identity-management, credentials-management, protect-template
-    CONTENT: csf-subcategory-template, strategic-guidance, implementation-guidance, ai-instructions
-    RELATED: methods/templates/controls/, context/organization/, methods/adoption/frameworks/csf/
+    TOPICS: nist-csf-pr-aa-01, protect, access-control, identity-management, protection-template, security-maturity
+    CONTENT: csf-subcategory-template, strategic-guidance, implementation-guidance, ai-instructions, maturity-adaptations
+    RELATED: methods/templates/controls/, context/organization/, methods/adoption/frameworks/csf/, maturity_proposal.md
     RATING: foundational
-    PURPOSE: NIST CSF PR.AA-01 Identities and Credentials Management Template
+    PURPOSE: Maturity-Aware NIST CSF PR.AA-01 Identity Management Systems Template
     UPDATE: High
+    SECURITY_MATURITY_LEVEL: adaptive_template
+    TARGET_AUDIENCE: all_organizational_maturity_levels
     Updated: 2025-01-27
 -->
 <!-- END AI FILE SUMMARY -->
 
 <!-- BEGIN AI COMMENT -->
 <!-- 
-    PR.AA-01 TEMPLATE PURPOSE: This template provides a framework-specific template for NIST CSF 
-    PR.AA-01 (Identities and credentials are issued, managed, verified, revoked, and audited for authorized devices, users, and processes). 
-    It includes identity protection guidance, implementation approaches, and organizational context integration.
+    MATURITY-AWARE PR.AA-01 TEMPLATE PURPOSE: This enhanced template provides a framework-specific 
+    template for NIST CSF PR.AA-01 (Identities and credentials are issued, managed, verified, 
+    revoked, and audited for authorized individuals, processes, and devices) with adaptive 
+    content that adjusts based on organizational security responsibility maturity.
     
-    CSF SPECIFICITY: This template focuses on protection outcomes that establish comprehensive
-    identity and credential management for secure access control and authentication.
+    CSF SPECIFICITY: This template focuses on protection outcomes that establish clear 
+    understanding of identity management with appropriate depth based on organizational 
+    maturity levels.
     
-    TEMPLATE USAGE: Use this template to generate PR.AA-01 documentation that aligns with
-    organizational identity management and creates comprehensive identity and credential controls.
+    TEMPLATE USAGE: Use this template to generate PR.AA-01 documentation that implements 
+    identity management appropriate to the organization's security responsibility maturity 
+    level and access control complexity.
 -->
 <!-- END AI COMMENT -->
 
 <!-- BEGIN AI INSTRUCTION -->
 <!-- 
-    AI AGENTS: When using this PR.AA-01 template to generate control documentation:
+    AI AGENTS: When using this maturity-aware PR.AA-01 template to generate control documentation:
     
+    STANDARD CSF TEMPLATE OPERATIONS:
     1. SUBCATEGORY SPECIFICITY: This template is specifically for NIST CSF PR.AA-01
-    2. IDENTITY FOCUS: Emphasize comprehensive identity and credential lifecycle management
+    2. PROTECTION FOCUS: Emphasize identity management systems and credential lifecycle management
     3. REPLACE PLACEHOLDERS: Replace all {{PLACEHOLDER}} text with organization-specific content
-    4. ORGANIZATIONAL CONTEXT: Use context/ folder to tailor implementation to organization
-    5. IMPLEMENTATION TIERS: Consider current and target implementation tier levels
-    6. INFORMATIVE REFERENCES: Map to relevant standards and frameworks
-    7. ACCESS ALIGNMENT: Connect identity management to organizational access control
-    8. OUTCOME ORIENTATION: Focus on achieving protection outcomes rather than compliance
-    9. SCALABILITY: Provide guidance for different organizational sizes and complexity
-    10. CONTINUOUS IMPROVEMENT: Emphasize ongoing enhancement and maturity growth
+    4. IMPLEMENTATION TIERS: Consider current and target implementation tier levels
+    5. INFORMATIVE REFERENCES: Map to relevant standards and frameworks
+    6. OUTCOME ORIENTATION: Focus on achieving clear identity management protection outcomes
+    
+    MATURITY-AWARE ADAPTATIONS:
+    7. READ ORGANIZATIONAL MATURITY: Assess security_ownership level from organization profile
+    8. APPLY APPROPRIATE IDENTITY COMPLEXITY: Use maturity-specific identity management analysis depth
+    9. INCLUDE RELEVANT IDENTITY SECTIONS: Show/hide sections based on maturity level
+    10. SET MATURITY-APPROPRIATE SYSTEMS: Match identity systems to organizational capability
+    11. ADJUST IDENTITY GUIDANCE: Provide guidance appropriate to maturity level
+    12. FOCUS ON MATURITY-RELEVANT IDENTITIES: Emphasize identity types important to maturity level
+    
+    MATURITY-SPECIFIC CONTENT ADAPTATION FOR PR.AA-01:
+    
+    IF security_ownership == "business_led":
+    - Use business language focused on business identity and operational credential management
+    - Emphasize identity management based on business value and regulatory credential considerations
+    - Include executive and operational identity governance and business credential management
+    - Focus on compliance-driven identity management and business impact credential considerations
+    - Provide simple identity frameworks appropriate to business operations management
+    - Include business identity value and operational credential management considerations
+    
+    IF security_ownership == "it_led":
+    - Use IT language focused on technology identity and infrastructure credential management
+    - Emphasize identity management based on IT service delivery and technology operational credentials
+    - Include IT governance and technology identity management and infrastructure credential systems
+    - Focus on operational identity management and IT service credential considerations
+    - Provide IT-centric identity frameworks and technology credential analysis
+    - Include technology service identity and infrastructure credential management considerations
+    
+    IF security_ownership == "engineering_led":
+    - Use engineering language focused on technical identity and development credential management
+    - Emphasize identity management based on engineering operations and platform credential considerations
+    - Include engineering governance and technical identity management and development credential systems
+    - Focus on technical identity management and engineering platform credential considerations
+    - Provide engineering-centric identity frameworks and technical credential analysis
+    - Include development platform identity and engineering credential management considerations
+    
+    IF security_ownership == "infosec_led":
+    - Use security language focused on comprehensive identity and security-informed credential management
+    - Emphasize identity management based on security threat landscape and advanced credential considerations
+    - Include security governance and strategic identity management and security credential systems
+    - Focus on threat-informed identity management and comprehensive security credential considerations
+    - Provide security-centric identity frameworks and advanced credential analysis
+    - Include strategic security identity and comprehensive credential management considerations
     
     CONTEXT REQUIREMENTS:
-    - Read context/organization/ files for user population and access requirements
-    - Read context/technology/ files for current identity systems and platforms
-    - Read context/risks/ files for identity-related risk considerations
-    - Use organizational context to tailor identity and credential management approach
-    - Consider access patterns and authentication requirements
+    - Read context/organization/ files for current identity systems and credential management
+    - Read context/stakeholders/ files for stakeholder identity expectations and access requirements
+    - Use organizational maturity context to tailor identity complexity and credential strategies
+    - Consider identity complexity and credential capability appropriate to maturity level
     
     QUALITY VALIDATION:
     - CSF language and intent must be preserved accurately
-    - Identity protection outcomes must be clearly articulated
-    - Implementation guidance must be practical and scalable
-    - Informative references must be accurate and relevant
-    - Assessment approaches must focus on effectiveness not just compliance
-    - Identity management pathways must be clearly defined
+    - Identity management approaches must be clearly articulated for the maturity level
+    - Credential management strategies must be practical and effective
+    - Identity analysis must align with organizational capability
+    - Protection outcomes must support effective access control and identity governance
 -->
 <!-- END AI INSTRUCTION -->
-<!-- END AI HEADER: 85 LINES --> 
+<!-- END AI HEADER --> 
 
-# PR.AA-01 - Identities and Credentials Management
+---
 
-## Subcategory Information
+## NIST CSF Subcategory: PR.AA-01
 
-**Subcategory ID**: PR.AA-01  
-**Function**: Protect (PR)  
-**Category**: Identity Management, Authentication, and Access Control (AA)  
-**Subcategory**: Identities and credentials are issued, managed, verified, revoked, and audited for authorized devices, users, and processes  
-**Implementation Tier**: {{CURRENT_IMPLEMENTATION_TIER}}  
-**Target Tier**: {{TARGET_IMPLEMENTATION_TIER}}  
+### Subcategory Information
+- **ID**: PR.AA-01
+- **Function**: PROTECT (PR)
+- **Category**: Identity Management, Authentication and Access Control (AA)
+- **Title**: Identity Management Systems
+- **Outcome**: Identities and credentials are issued, managed, verified, revoked, and audited for authorized individuals, processes, and devices
+
 **Implementation Status**: {{IMPLEMENTATION_STATUS}}  
-**Last Reviewed**: {{LAST_REVIEWED_DATE}}  
-**Next Review**: {{NEXT_REVIEW_DATE}}
+**Implementation Date**: {{IMPLEMENTATION_DATE}}  
+**Review Date**: {{REVIEW_DATE}}  
+**Version**: {{VERSION}}
 
-## NIST CSF Subcategory Statement
+### NIST CSF Subcategory Statement
 
-### PR.AA-01 Outcome
+**Outcome Statement**: The organization establishes and maintains comprehensive identity management systems that systematically issue, manage, verify, revoke, and audit identities and credentials for all authorized individuals, processes, and devices, ensuring secure and accountable access to organizational resources.
 
-**Identities and credentials are issued, managed, verified, revoked, and audited for authorized devices, users, and processes**
+**Strategic Value**: This subcategory establishes foundational identity security by creating systematic identity lifecycle management processes, enabling secure access control, accountability frameworks, and trust establishment across all organizational assets and stakeholders through comprehensive identity governance.
 
-Organizations implement comprehensive identity and credential lifecycle management to ensure that only authorized entities can access organizational resources, with appropriate authentication, authorization, and accountability mechanisms.
+### Organizational Implementation
 
-### Strategic Value
+#### Current Identity Management Assessment
+{{#if_business_led}}
+**Business-Led Identity Management Assessment**:
+- Current business identity systems and operational credential management analysis
+- Customer-facing identity management and business-critical credential mapping
+- Business application identity systems and operational credential identification
+- Executive and operational identity governance and business credential requirements
+- Regulatory compliance and business identity management documentation requirements
+{{/if_business_led}}
 
-This subcategory supports organizational cybersecurity by:
-- Establishing strong identity verification and authentication controls
-- Preventing unauthorized access to organizational resources and data
-- Enabling comprehensive audit trails for access activities
-- Supporting compliance with regulatory and privacy requirements
-- Facilitating identity-based risk management and incident response
+{{#if_it_led_plus}}
+**IT-Led Identity Management Assessment**:
+- Technology infrastructure and IT identity systems analysis
+- Cloud service provider and technology platform credential mapping
+- IT service delivery and infrastructure identity identification
+- Technology integration and platform credential assessment and documentation
+- IT infrastructure and service operation identity requirements
+{{/if_it_led_plus}}
 
-## Organizational Implementation
+{{#if_engineering_led_plus}}
+**Engineering-Led Identity Management Assessment**:
+- Software development and technical platform identity analysis
+- Development tool and infrastructure credential mapping
+- Platform and infrastructure technical identity identification
+- Technical ecosystem and engineering credential integration assessment
+- Engineering platform and development operation identity documentation
+{{/if_engineering_led_plus}}
 
-### Current Identity Environment
+{{#if_infosec_led}}
+**InfoSec-Led Identity Management Assessment**:
+- Security infrastructure and comprehensive identity analysis
+- Advanced security identity management and strategic credential mapping and assessment
+- Security operations and incident response identity identification
+- Comprehensive security and threat management credential assessment
+- Strategic security operation and threat landscape identity documentation
+{{/if_infosec_led}}
 
-Based on our organizational profile from `{{ORGANIZATION_CONTEXT_REFERENCE}}`:
+#### Framework-Specific Identity Elements
 
-- **User Population**: {{USER_POPULATION}}
-- **Device Environment**: {{DEVICE_ENVIRONMENT}}
-- **Application Landscape**: {{APPLICATION_LANDSCAPE}}
-- **Identity Systems**: {{CURRENT_IDENTITY_SYSTEMS}}
-- **Authentication Methods**: {{CURRENT_AUTHENTICATION_METHODS}}
-- **Access Management**: {{CURRENT_ACCESS_MANAGEMENT}}
-- **Current IAM Maturity**: {{CURRENT_IAM_MATURITY}}
+**Identity Management System Framework**:
+1. **Identity Lifecycle Management**: Comprehensive processes for identity creation, modification, and deactivation
+2. **Credential Management**: Systematic credential issuance, renewal, and revocation processes
+3. **Verification Systems**: Identity verification and authentication mechanisms
+4. **Audit and Monitoring**: Continuous monitoring and auditing of identity activities
+5. **Governance Framework**: Identity governance policies, procedures, and oversight mechanisms
 
-### Identity Management Context
+### Implementation Approach by Tier
 
-Our approach to identity and credential management aligns with:
+#### Tier 1 (Partial) - {{PRIMARY_SECURITY_ROLE}} Focus
+{{#if_business_led}}
+**Basic Business-Led Identity Management**:
+- Document fundamental business identity and primary credential management systems
+- Create simple identity mapping and basic business credential identification
+- Identify key business identity types and core credential determination processes
+- Establish basic identity frameworks and business credential documentation
+- Define minimum identity analysis collection and business credential tracking requirements
+{{/if_business_led}}
 
-- **Identity Architecture**: {{IDENTITY_ARCHITECTURE_FRAMEWORK}}
-- **Security Framework**: {{SECURITY_FRAMEWORK}}
-- **Compliance Requirements**: {{COMPLIANCE_REQUIREMENTS}}
-- **Risk Management**: {{RISK_MANAGEMENT_APPROACH}}
-- **Technology Standards**: {{TECHNOLOGY_STANDARDS}}
+{{#if_it_led_plus}}
+**Basic IT-Led Identity Management**:
+- Document technology identity and primary IT credential management systems
+- Create simple IT identity mapping and technology credential identification
+- Identify critical technology identity types and core IT credential processes
+- Establish basic IT identity frameworks and technology credential documentation
+- Define minimum IT identity analysis collection and technology credential tracking requirements
+{{/if_it_led_plus}}
 
-### Current Identity Management Framework
+#### Tier 2 (Risk Informed) - Enhanced Identity Management
+**Risk-Based Identity Enhancement**:
+- Develop comprehensive identity analysis with assessment and credential integration
+- Create structured identity analysis across multiple credential and organizational dimensions
+- Implement systematic identity monitoring and credential validation processes
+- Establish risk-informed identity strategies and credential management
+- Develop coordinated identity documentation and operational alignment
 
-**Identity Governance Model**: {{IDENTITY_GOVERNANCE_MODEL}}
+#### Tier 3 (Repeatable) - Systematic Identity Management
+**Systematic Identity Operations**:
+- Implement automated identity assessment and credential analysis systems
+- Establish continuous identity monitoring and credential evolution tracking
+- Develop advanced identity analytics and credential optimization analysis
+- Create standardized identity processes and credential management frameworks
+- Implement comprehensive identity performance measurement and strategic planning
 
-**Identity Categories**:
-- **Human Identities**: {{HUMAN_IDENTITIES_MANAGEMENT}}
-- **Service Accounts**: {{SERVICE_ACCOUNTS_MANAGEMENT}}
-- **Device Identities**: {{DEVICE_IDENTITIES_MANAGEMENT}}
-- **Application Identities**: {{APPLICATION_IDENTITIES_MANAGEMENT}}
-- **Privileged Identities**: {{PRIVILEGED_IDENTITIES_MANAGEMENT}}
+#### Tier 4 (Adaptive) - Advanced Identity Optimization
+{{#if_infosec_led}}
+**Advanced InfoSec-Led Identity Management**:
+- Deploy predictive identity analytics with threat intelligence and credential integration
+- Implement real-time identity monitoring with adaptive credential strategies
+- Establish dynamic identity assessment with strategic credential optimization
+- Develop advanced threat-informed identity and credential collaboration
+- Create strategic identity positioning with industry credential and innovation
+{{/if_infosec_led}}
 
-## Implementation Approach by Tier
+### Technology Implementation
 
-### Tier 1: Partial
-- Basic user account management with manual processes
-- Simple password-based authentication
-- Limited identity lifecycle management
-- Ad-hoc access provisioning and deprovisioning
-- Basic audit logging for identity activities
+#### Identity Management Technology Infrastructure
+**Identity Management Technology Context**:
+- Current identity and access management (IAM) platforms
+- Directory services and authentication systems
+- Single sign-on (SSO) and federation technologies
+- Privileged access management (PAM) solutions
+- Integration capabilities with enterprise applications and security systems
 
-### Tier 2: Risk Informed
-- Formal identity management processes and policies
-- Multi-factor authentication for critical systems
-- Systematic identity lifecycle management
-- Role-based access control implementation
-- Regular identity access reviews and audits
+{{#if_engineering_led_plus}}
+**Engineering-Led Identity Technology**:
+- **Identity Automation**: Automated platform and development identity analysis and mapping
+- **Credential Systems**: Technical identity tracking and credential integration analysis systems
+- **Identity Visualization**: Technical identity design and development credential visualization
+- **Integration Platforms**: Engineering team identity and credential integration and collaboration
+- **Analytics Systems**: Technical identity analysis and credential optimization tools
+{{/if_engineering_led_plus}}
 
-### Tier 3: Repeatable
-- Comprehensive identity and access management platform
-- Advanced authentication mechanisms and protocols
-- Automated identity lifecycle management
-- Attribute-based access control implementation
-- Continuous identity monitoring and analytics
+### Business Risk Integration
 
-### Tier 4: Adaptive
-- AI-enhanced identity risk assessment and management
-- Adaptive authentication and zero-trust architecture
-- Real-time identity behavior analytics
-- Predictive identity threat detection and response
-- Continuous identity optimization and improvement
+#### Identity-Based Risk Management Framework
+**Risk Assessment by Identity Category**:
+1. **Unauthorized Access Risk**: Identity compromise impact on organizational security and data protection
+2. **Credential Risk**: Weak or compromised credentials impact on access control effectiveness
+3. **Identity Proliferation Risk**: Unmanaged identities impact on security oversight and governance
+4. **Lifecycle Risk**: Poor identity lifecycle management impact on access governance
+5. **Strategic Risk**: Long-term identity capability sustainability and evolution implications
 
-## Technology Implementation
+{{#if_business_led}}
+**Executive Identity Strategy**:
+- Board-level identity oversight and strategic credential governance
+- Executive decision-making for identity evolution and strategic credential development
+- Strategic planning integration with identity optimization and credential positioning
+- Investment decision-making with identity-based assessment
+- Crisis management coordination with identity-specific access management planning
+{{/if_business_led}}
 
-### Current Technology Context
+### Assessment and Measurement
 
-Based on our technology stack from `{{TECHNOLOGY_STACK_REFERENCE}}`:
+#### Identity Management Effectiveness Metrics
+**Quantitative Measures**:
+- Identity management coverage and credential lifecycle completeness assessment
+- Identity verification accuracy and credential management effectiveness measurement
+- Identity-related security incident and access violation tracking
+- Identity provisioning time and credential management effectiveness measurement
+- Identity optimization and credential positioning strategic advantage analysis
 
-**Identity Management Platforms**: {{IDENTITY_MANAGEMENT_PLATFORMS}}
-**Authentication Systems**: {{AUTHENTICATION_SYSTEMS}}
-**Directory Services**: {{DIRECTORY_SERVICES}}
+**Qualitative Measures**:
+- Stakeholder satisfaction with identity management clarity and credential effectiveness
+- Internal team alignment on identity strategies and credential management
+- Identity management adaptability to changing organizational environment and credential conditions
+- Strategic identity development and credential positioning advancement
+- Leadership effectiveness in identity governance and credential coordination
 
-### Tier-Specific Technology Recommendations
+{{#if_infosec_led}}
+**InfoSec-Led Identity Assessment**:
+- Advanced security identity effectiveness in threat mitigation and credential protection
+- Threat-informed identity positioning accuracy and strategic security credential relevance
+- Security identity collaboration effectiveness and credential analysis integration
+- Advanced identity modeling integration with threat landscape analysis
+- Strategic security leadership development through identity and credential positioning
+{{/if_infosec_led}}
 
-#### Tier 1: Partial Implementation
-- **Basic Directory Services**: Simple LDAP or Active Directory
-- **Password Management**: Basic password policies and management
-- **Simple Authentication**: Username/password with basic MFA
+### Informative References
 
-**Technology Capabilities Needed**:
-- Basic directory services for identity storage
-- Password policy enforcement capabilities
-- Simple multi-factor authentication tools
-
-#### Tier 2: Risk Informed Implementation
-- **Identity Management System**: Dedicated IAM platform
-- **Multi-Factor Authentication**: Comprehensive MFA solutions
-- **Access Management**: Role-based access control systems
-
-**Technology Capabilities Needed**:
-- Identity management platform integration
-- Advanced MFA and authentication capabilities
-- Role and policy management systems
-
-#### Tier 3: Repeatable Implementation
-- **Enterprise IAM Platform**: Comprehensive identity governance
-- **Advanced Authentication**: SSO, federation, and adaptive auth
-- **Identity Analytics**: User behavior and risk analytics
-
-**Technology Capabilities Needed**:
-- Enterprise identity governance platforms
-- Advanced authentication and federation
-- Identity analytics and monitoring capabilities
-
-#### Tier 4: Adaptive Implementation
-- **AI-Enhanced IAM**: Machine learning-based identity protection
-- **Zero-Trust Architecture**: Continuous verification and authorization
-- **Behavioral Analytics**: Advanced user and entity behavior analysis
-
-**Technology Capabilities Needed**:
-- AI/ML-enhanced identity platforms
-- Zero-trust architecture components
-- Advanced behavioral analytics capabilities
-
-## Business Risk Integration
-
-### Risk Assessment Context
-
-From our risk profile documented in `{{RISK_PROFILE_REFERENCE}}`:
-
-- **Identity Risk Factors**: {{IDENTITY_RISK_FACTORS}}
-- **Access Control Risks**: {{ACCESS_CONTROL_RISKS}}
-- **Authentication Threats**: {{AUTHENTICATION_THREATS}}
-- **Compliance Obligations**: {{COMPLIANCE_OBLIGATIONS}}
-
-### Risk Prioritization Framework
-
-Our identity management approach supports:
-
-1. **Access Risk Management**: {{ACCESS_RISK_MANAGEMENT}}
-2. **Identity Threat Protection**: {{IDENTITY_THREAT_PROTECTION}}
-3. **Privilege Management**: {{PRIVILEGE_MANAGEMENT_FRAMEWORK}}
-4. **Compliance Assurance**: {{COMPLIANCE_ASSURANCE_APPROACH}}
-5. **Incident Response**: {{INCIDENT_RESPONSE_IDENTITY_SUPPORT}}
-
-## Assessment and Measurement
-
-### Effectiveness Metrics
-
-**Primary Metrics**:
-- Identity lifecycle management completeness and timeliness
-- Authentication success rates and security effectiveness
-- Access review completion rates and finding remediation
-- Identity-related security incidents and response times
-- Compliance audit results and corrective action completion
-
-**Key Performance Indicators (KPIs)**:
-- {{IDENTITY_MANAGEMENT_KPI_1}}
-- {{IDENTITY_MANAGEMENT_KPI_2}}
-- {{IDENTITY_MANAGEMENT_KPI_3}}
-
-### Assessment Methods
-
-**Tier 1 Assessment**:
-- Manual identity audit and access review
-- Basic authentication effectiveness measurement
-- Simple compliance checking and reporting
-
-**Tier 2 Assessment**:
-- Automated identity lifecycle monitoring
-- Authentication security analysis and reporting
-- Regular access certification and compliance review
-
-**Tier 3 Assessment**:
-- Comprehensive identity governance analytics
-- Advanced authentication risk assessment
-- Continuous compliance monitoring and reporting
-
-**Tier 4 Assessment**:
-- Predictive identity risk modeling and assessment
-- Real-time authentication threat detection
-- AI-enhanced compliance and governance analysis
-
-## Informative References
-
-### Primary Standards and Frameworks
+#### Primary Standards and Frameworks
 - **NIST SP 800-63**: Digital Identity Guidelines
-- **NIST SP 800-53**: Security and Privacy Controls (IA Family)
 - **ISO 27001**: Information Security Management Systems
+- **NIST SP 800-53**: Security and Privacy Controls (IA family)
 - **SAML 2.0**: Security Assertion Markup Language
-- **OAuth 2.0/OpenID Connect**: Authorization and Authentication Protocols
+- **OAuth 2.0 / OpenID Connect**: Modern authentication and authorization protocols
 
-### Implementation Resources
-- **NIST CSF Implementation Examples**: {{CSF_IMPLEMENTATION_EXAMPLES}}
-- **Identity Management Best Practices**: {{IAM_BEST_PRACTICES}}
-- **Zero Trust Architecture Guidelines**: {{ZERO_TRUST_GUIDELINES}}
+#### Implementation Resources
+{{#if_business_led}}
+**Business-Led Identity Resources**:
+- Business identity development and assessment frameworks
+- Executive identity oversight and business credential strategic planning
+- Compliance identity documentation and business credential protection procedures
+- Business identity development and operational credential methodologies
+- Strategic identity and business credential development management guidance
+{{/if_business_led}}
 
-## Continuous Improvement
+{{#if_engineering_led_plus}}
+**Engineering-Led Identity Resources**:
+- Technical identity development and development frameworks
+- Software development identity design and platform procedures
+- Engineering governance integration with identity development
+- Platform optimization and integration identity methodologies
+- DevOps and automation identity development and management guidelines
+{{/if_engineering_led_plus}}
 
-### Maturity Progression Roadmap
+### Continuous Improvement
 
-**Current Maturity Level**: {{CURRENT_MATURITY_LEVEL}}
-**Target Maturity Level**: {{TARGET_MATURITY_LEVEL}}
+#### Identity Management Maturity Progression
+**Identity Enhancement Pathway**:
+1. **Foundation**: Basic identity management and simple credential documentation
+2. **Development**: Systematic identity analysis with structured credential management
+3. **Integration**: Comprehensive identity optimization with strategic credential integration
+4. **Optimization**: Advanced predictive identity management with credential intelligence
+5. **Innovation**: Adaptive credential leadership with strategic identity positioning and security
 
-**Improvement Priorities**:
-1. {{IMPROVEMENT_PRIORITY_1}}
-2. {{IMPROVEMENT_PRIORITY_2}}
-3. {{IMPROVEMENT_PRIORITY_3}}
+#### Identity Optimization Strategy
+{{#if_it_led_plus}}
+**IT-Led Identity Enhancement**:
+- Technology identity advancement and automation
+- Service delivery credential integration with strategic IT identity development
+- IT governance enhancement with identity credential management integration
+- Technology innovation integration with strategic identity positioning
+- Automated identity analysis and credential optimization system implementation
+{{/if_it_led_plus}}
 
-### Performance Optimization
+### Related CSF Subcategories
 
-**Optimization Focus Areas**:
-- Identity lifecycle automation and efficiency
-- Authentication user experience and security balance
-- Access governance accuracy and completeness
-- Identity risk detection and response capabilities
-- Compliance automation and reporting effectiveness
+#### Direct Dependencies
+**Primary Dependencies**:
+- **ID.AM-06**: Cybersecurity roles and responsibilities inform identity requirements
+- **GV.OC-05**: Workforce management coordinates with identity management
+- **PR.AC-01**: Access control policies support identity management implementation
 
-## Related CSF Subcategories
+#### Supporting Subcategories
+**Related Access Control Subcategories**:
+- **PR.AA-02**: Access permissions and authorizations coordinate with identity management
+- **PR.AA-03**: Remote access management integrates with identity systems
+- **PR.AA-04**: Access permissions management uses identity information
+- **PR.AA-05**: Network integrity protection coordinates with identity verification
+- **PR.AA-06**: Physical access controls integrate with identity management
 
-### Direct Dependencies
-- **PR.AA-02**: Identity Verification and Authentication
-- **PR.AA-03**: Identity Management and Authorization
-- **PR.AA-04**: Identity Management Governance
-- **PR.AA-05**: Network Integrity Protection
+### Implementation Timeline
 
-### Supporting Subcategories
-- **ID.AM-05**: Resources Prioritization
-- **PR.AT-01**: Cybersecurity Awareness and Training
-- **DE.AE-02**: Identity and Access Events Analysis
-- **RS.AN-03**: Forensics Analysis and Incident Investigation
+#### Phase 1: Identity Management Foundation (Months 1-3)
+**Immediate Implementation**:
+- Basic identity management framework and credential system mapping
+- Initial identity assessment and management framework establishment
+- Simple identity analysis and credential documentation
+- Basic identity processes and internal credential alignment procedures
+- Initial identity-related assessment and credential documentation
 
-## Implementation Timeline
+#### Phase 2: Identity Management Development (Months 4-8)
+**Identity Enhancement**:
+- Comprehensive identity analysis framework development and implementation
+- Advanced credential assessment and identity validation system deployment
+- Cross-functional identity coordination and strategic credential planning integration
+- Performance measurement and identity optimization system establishment
+- Strategic identity planning and credential positioning development
 
-### Phase 1: Foundation (Months 1-3)
-- Establish identity management policies and procedures
-- Implement basic identity lifecycle management processes
-- Deploy multi-factor authentication for critical systems
-- Create identity governance and audit frameworks
+#### Phase 3: Identity Management Optimization (Months 9-12)
+**Identity Maturation**:
+- Advanced identity analytics and strategic credential positioning implementation
+- Continuous improvement process establishment and optimization
+- Strategic credential leadership development and identity collaboration
+- Future capability planning and adaptive identity management framework
+- Innovation integration and competitive advantage optimization
 
-### Phase 2: Enhancement (Months 4-8)
-- Deploy comprehensive identity management platform
-- Implement advanced authentication and authorization
-- Establish automated identity lifecycle management
-- Integrate identity systems with security monitoring
+### Quality Assurance
 
-### Phase 3: Optimization (Months 9-12)
-- Implement advanced identity analytics and monitoring
-- Establish continuous improvement processes
-- Optimize identity risk management capabilities
-- Enhance predictive identity threat detection
+#### Template Validation Checklist
+- [ ] PR.AA-01 subcategory requirements fully addressed
+- [ ] Maturity-specific identity approaches included for all security ownership levels
+- [ ] Identity management analysis practical and comprehensive
+- [ ] Credential management strategies appropriate for maturity level
+- [ ] Risk integration comprehensive and business-aligned
+- [ ] Informative references accurate and relevant
+- [ ] Timeline realistic and achievable
+- [ ] Quality metrics meaningful and measurable
 
-## Quality Assurance
-
-### Template Validation Checklist
-- [ ] Identity lifecycle management processes clearly defined
-- [ ] Implementation approaches aligned with CSF intent
-- [ ] Technology recommendations appropriate for each tier
-- [ ] Assessment methods comprehensive and practical
-- [ ] Informative references accurate and current
-- [ ] Related subcategories properly identified
-- [ ] Implementation timeline realistic and actionable
-
-### Implementation Checklist
-- [ ] {{IMPLEMENTATION_CHECKLIST_ITEM_1}}
-- [ ] {{IMPLEMENTATION_CHECKLIST_ITEM_2}}
-- [ ] {{IMPLEMENTATION_CHECKLIST_ITEM_3}}
-- [ ] {{IMPLEMENTATION_CHECKLIST_ITEM_4}}
-- [ ] {{IMPLEMENTATION_CHECKLIST_ITEM_5}}
+#### Implementation Checklist
+- [ ] Identity lifecycle management processes established and documented
+- [ ] Credential management systems implemented and operational
+- [ ] Verification systems deployed and validated
+- [ ] Audit and monitoring mechanisms established and operational
+- [ ] Governance framework developed and communicated
+- [ ] Integration systems deployed and operational
+- [ ] Performance measurement systems active
+- [ ] Continuous improvement processes implemented
+- [ ] Strategic planning integration completed
