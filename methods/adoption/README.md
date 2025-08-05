@@ -46,6 +46,21 @@
 
 This folder contains our organization's approach to adopting and implementing NIST (National Institute of Standards and Technology) frameworks. It provides general guidance on NIST frameworks and our specific implementation strategies for different framework components.
 
+## What You'll Find Here
+
+### Core Adoption Documentation
+- **[`README.md`](README.md)** - This overview and general adoption guidance
+- **[`framework-approaches.md`](framework-approaches.md)** - Our organizational interpretation and implementation strategies for different NIST frameworks
+- **[`control-families.md`](control-families.md)** - Detailed guidance for implementing specific NIST control families
+- **[`implementation-patterns.md`](implementation-patterns.md)** - Reusable patterns and approaches for common control implementations
+- **[`scoring.md`](scoring.md)** - Framework maturity assessment and scoring methodology
+
+### Framework-Specific Implementation
+- **[`frameworks/`](frameworks/README.md)** - Directory containing detailed implementation checklists for each NIST framework
+  - [NIST CSF](frameworks/csf/README.md) - Cybersecurity Framework implementation
+  - [NIST 800-53](frameworks/800-53/README.md) - Security controls implementation  
+  - [NIST 800-171](frameworks/800-171/README.md) - CUI protection implementation
+
 ## NIST Framework Landscape
 
 ### Primary NIST Frameworks

@@ -110,6 +110,35 @@ This folder provides essential context to understand our organization's specific
 
 ## Getting Started
 
+### Development Files Overview
+
+This directory contains essential development and setup files:
+
+#### Core Development Documentation
+- **[`README.md`](README.md)** - This development guide and process documentation
+- **[`CONTRIBUTING.md`](CONTRIBUTING.md)** - Contribution guidelines and standards for the repository
+
+#### AI Agent Setup and Configuration
+- **[`cursor-agent-setup.md`](cursor-agent-setup.md)** - Comprehensive setup guide for Cursor background agents
+- **[`agent-quick-reference.md`](agent-quick-reference.md)** - Quick reference guide for AI agent commands and standards
+- **[`dual-agent-setup-guide.md`](dual-agent-setup-guide.md)** - Complete guide for setting up dual agent workflows
+- **[`documentation-agent-config.md`](documentation-agent-config.md)** - Configuration for documentation-focused agents
+- **[`template-improvement-agent-config.md`](template-improvement-agent-config.md)** - Configuration for template enhancement agents
+
+#### Usage Guide
+
+**If You're New to Development:**
+1. Start with this README to understand the repository structure and goals
+2. Review [CONTRIBUTING.md](CONTRIBUTING.md) for contribution standards
+3. Set up your development environment using [cursor-agent-setup.md](cursor-agent-setup.md)
+4. Reference [agent-quick-reference.md](agent-quick-reference.md) for daily commands
+
+**If You're Setting Up AI Agents:**
+1. Follow [dual-agent-setup-guide.md](dual-agent-setup-guide.md) for comprehensive setup
+2. Use [documentation-agent-config.md](documentation-agent-config.md) for documentation tasks
+3. Use [template-improvement-agent-config.md](template-improvement-agent-config.md) for template work
+4. Keep [agent-quick-reference.md](agent-quick-reference.md) handy for quick commands
+
 [Documentation on how to contribute and use this repository will be added as the structure is developed]
 
 ## Contributing

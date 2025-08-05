@@ -68,6 +68,8 @@ This folder contains a **complete suite of standardized templates** for generati
 - **`organization-profile.tpl.md`** - Template for organizational profile information
 - **`technology-stack.tpl.md`** - Template for technology infrastructure documentation
 - **`risk-profile.tpl.md`** - Template for risk assessment and compliance requirements
+- **`stakeholders.tpl.md`** - Template for stakeholder roles and decision-making structures
+- **`constraints.tpl.md`** - Template for resource limitations and operational considerations
 
 ### ✅ **Complete Control Template Suite**
 - **`controls/` folder** - Complete suite of NIST control documentation templates
