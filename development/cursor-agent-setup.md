@@ -28,7 +28,9 @@
 <!-- END AI INSTRUCTION -->
 <!-- END AI HEADER: 45 LINES --> 
 
-# Cursor Background Agent Setup Guide
+# Cursor Agent Setup Guide
+
+> **Navigation:** [🏠 Root](../README.md) › [📁 Development](README.md) › **Cursor Agent Setup**
 
 ## Overview
 

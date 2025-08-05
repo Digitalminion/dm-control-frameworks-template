@@ -40,6 +40,8 @@
 
 # NIST Framework Adoption
 
+> **Navigation:** [🏠 Root](../../README.md) › [📁 Methods](../README.md) › **Adoption**
+
 ## Overview
 
 This folder contains our organization's approach to adopting and implementing NIST (National Institute of Standards and Technology) frameworks. It provides general guidance on NIST frameworks and our specific implementation strategies for different framework components.
@@ -110,19 +112,19 @@ We adopt NIST frameworks using a risk-based approach that considers:
 For detailed implementation checklists and guidance for each NIST framework, see the specific framework folders:
 
 ### NIST CSF Implementation
-- **Location**: `methods/adoption/frameworks/csf/`
+- **Location**: [`methods/adoption/frameworks/csf/`](frameworks/csf/README.md)
 - **Purpose**: Comprehensive checklist for NIST Cybersecurity Framework implementation
 - **Coverage**: 5 functions, 23 categories, 108 subcategories
 - **Focus**: Voluntary cybersecurity risk management framework
 
 ### NIST 800-53 Implementation  
-- **Location**: `methods/adoption/frameworks/800-53/`
+- **Location**: [`methods/adoption/frameworks/800-53/`](frameworks/800-53/README.md)
 - **Purpose**: Comprehensive checklist for NIST 800-53 security controls
 - **Coverage**: 20 control families with detailed control implementations
 - **Focus**: Security and privacy controls for federal information systems
 
 ### NIST 800-171 Implementation
-- **Location**: `methods/adoption/frameworks/800-171/`
+- **Location**: [`methods/adoption/frameworks/800-171/`](frameworks/800-171/README.md)
 - **Purpose**: Comprehensive checklist for NIST 800-171 CUI protection
 - **Coverage**: 14 control families with CUI-specific requirements
 - **Focus**: Protecting controlled unclassified information (CUI)

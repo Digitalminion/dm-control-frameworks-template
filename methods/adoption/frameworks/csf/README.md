@@ -43,6 +43,8 @@
 
 # NIST Cybersecurity Framework (CSF) Adoption
 
+> **Navigation:** [🏠 Root](../../../../README.md) › [📁 Methods](../../../README.md) › [📁 Adoption](../../README.md) › [📁 Frameworks](../README.md) › **CSF**
+
 ## Overview
 
 This folder contains our detailed approach to adopting the NIST Cybersecurity Framework (CSF). The CSF is a voluntary framework that provides a high-level, strategic view of cybersecurity risk management across five core functions: Identify, Protect, Detect, Respond, and Recover.

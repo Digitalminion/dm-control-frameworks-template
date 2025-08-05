@@ -36,6 +36,8 @@
 
 # Risk Context
 
+> **Navigation:** [🏠 Root](../../README.md) › [📁 Context](../README.md) › **Risks**
+
 ## Overview
 
 This folder contains documentation about risk environment, threat landscape, vulnerabilities, and compliance requirements that drive NIST control selection and implementation priorities.

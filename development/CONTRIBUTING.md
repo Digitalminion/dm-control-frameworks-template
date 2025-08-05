@@ -22,6 +22,8 @@
 
 # Contributing to NIST Documentation Template
 
+> **Navigation:** [🏠 Root](../README.md) › [📁 Development](README.md) › **Contributing**
+
 Thank you for your interest in contributing to the NIST Documentation Template! This document provides guidelines for contributing to this repository effectively.
 
 ## 🚀 Quick Start

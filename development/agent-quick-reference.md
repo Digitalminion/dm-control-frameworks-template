@@ -28,9 +28,11 @@
 <!-- END AI INSTRUCTION -->
 <!-- END AI HEADER: 35 LINES --> 
 
-# Cursor Agent Quick Reference
+# AI Agent Quick Reference
 
-## Essential Commands
+> **Navigation:** [🏠 Root](../README.md) › [📁 Development](README.md) › **Agent Quick Reference**
+
+## Essential AI Agent Commands
 
 ### File Header Management
 ```markdown

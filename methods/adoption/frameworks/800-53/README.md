@@ -43,6 +43,8 @@
 
 # NIST Special Publication 800-53 Adoption
 
+> **Navigation:** [🏠 Root](../../../../README.md) › [📁 Methods](../../../README.md) › [📁 Adoption](../../README.md) › [📁 Frameworks](../README.md) › **800-53**
+
 ## Overview
 
 This folder contains our detailed approach to adopting NIST Special Publication 800-53. This publication provides security and privacy controls for federal information systems and organizations, with comprehensive coverage across 20 control families.

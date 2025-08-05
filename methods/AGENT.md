@@ -162,6 +162,8 @@
 
 # AI Agent Guidance and Standards
 
+> **Navigation:** [🏠 Root](../README.md) › [📁 Methods](README.md) › **AI Agent Standards**
+
 ## Overview
 
 This document establishes the standards and protocols for AI agents working with the NIST documentation repository. It provides the framework for creating, updating, and maintaining documentation that supports both human users and AI automation.
@@ -273,6 +275,38 @@ All markdown files in this repository follow a consistent header format to help 
 
 **Line after header**: File title in markdown format (# Title)
 
+### Breadcrumb Navigation Requirements
+
+**CRITICAL**: All markdown files MUST include breadcrumb navigation immediately after the title to enable users to climb back up to the root README. This is essential for repository navigation and user experience.
+
+**Breadcrumb Format**:
+```markdown
+# File Title
+
+> **Navigation:** [🏠 Root](../README.md) › [📁 Parent](../README.md) › **Current**
+```
+
+**Breadcrumb Rules**:
+- Always start with `🏠 Root` linking to the workspace root README
+- Use `📁 FolderName` for intermediate directories with links to their READMEs  
+- End with **Current** (no link) for the current file/directory
+- Use relative paths `../` to navigate up directory levels
+- Include emojis for visual hierarchy (🏠 for root, 📁 for folders)
+- Place breadcrumbs immediately after the main title, before any overview section
+
+**Directory Link Requirements**:
+- All folder README files must link to their immediate subdirectories
+- Links should be formatted as `[subdirectory/](subdirectory/README.md)` 
+- Include brief descriptions of what each subdirectory contains
+- Maintain consistent link formatting across all directory levels
+
+**Examples by Directory Level**:
+- Root level: No breadcrumbs needed (this is the destination)
+- First level (`methods/`): `> **Navigation:** [🏠 Root](../README.md) › **Methods**`
+- Second level (`methods/templates/`): `> **Navigation:** [🏠 Root](../../README.md) › [📁 Methods](../README.md) › **Templates**`
+- Third level (`methods/templates/controls/`): `> **Navigation:** [🏠 Root](../../../README.md) › [📁 Methods](../../README.md) › [📁 Templates](../README.md) › **Controls**`
+- Fourth level (`methods/adoption/frameworks/csf/`): `> **Navigation:** [🏠 Root](../../../../README.md) › [📁 Methods](../../../README.md) › [📁 Adoption](../../README.md) › [📁 Frameworks](../README.md) › **CSF**`
+
 This standardized approach enables AI agents to:
 - Quickly scan and understand file purpose and scope
 - Identify relevant content for specific queries
@@ -292,9 +326,12 @@ This standardized approach enables AI agents to:
 2. **Check the TODO section** in README.md for priorities
 3. **Use templates** from `methods/templates/` for new content
 4. **Follow header standards** for all file operations
-5. **Add AI comments** for contextual guidance
-6. **Update line counts** when modifying headers
-7. **Maintain quality standards** for all changes
+5. **Add breadcrumb navigation** to all markdown files immediately after the title
+6. **Ensure folder READMEs link** to all their subdirectories with proper descriptions
+7. **Add AI comments** for contextual guidance
+8. **Update line counts** when modifying headers
+9. **Maintain quality standards** for all changes
+10. **Validate navigation paths** ensure all breadcrumb links work correctly
 
 ### For Human Users
 
