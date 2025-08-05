@@ -1,62 +1,108 @@
-<!-- BEGIN AI HEADER: 85 LINES --> 
+<!-- BEGIN AI HEADER: 120 LINES --> 
 <!-- BEGIN AI FILE SUMMARY --> 
 <!-- 
-    TOPICS: nist-csf-gv-oc-01, organizational-context, mission-understanding, governance-template
-    CONTENT: csf-subcategory-template, strategic-guidance, implementation-guidance, ai-instructions
-    RELATED: methods/templates/controls/, context/organization/, methods/adoption/frameworks/csf/
+    TOPICS: nist-csf-gv-oc-01, organizational-context, mission-understanding, governance-template, security-maturity
+    CONTENT: csf-subcategory-template, strategic-guidance, implementation-guidance, ai-instructions, maturity-adaptations
+    RELATED: methods/templates/controls/, context/organization/, methods/adoption/frameworks/csf/, maturity_proposal.md
     RATING: foundational
-    PURPOSE: NIST CSF GV.OC-01 Organizational Mission Understanding Template
+    PURPOSE: Maturity-Aware NIST CSF GV.OC-01 Organizational Mission Understanding Template
     UPDATE: High
+    SECURITY_MATURITY_LEVEL: adaptive_template
+    TARGET_AUDIENCE: all_organizational_maturity_levels
     Updated: 2025-01-27
 -->
 <!-- END AI FILE SUMMARY -->
 
 <!-- BEGIN AI COMMENT -->
 <!-- 
-    GV.OC-01 TEMPLATE PURPOSE: This template provides a framework-specific template for NIST CSF 
-    GV.OC-01 (The organizational mission is understood and informs cybersecurity risk management). 
-    It includes strategic governance guidance, implementation approaches, and organizational context integration.
+    MATURITY-AWARE GV.OC-01 TEMPLATE PURPOSE: This enhanced template provides a framework-specific 
+    template for NIST CSF GV.OC-01 (The organizational mission is understood and informs cybersecurity 
+    risk management) with adaptive content that adjusts based on organizational security responsibility 
+    maturity. It includes strategic governance guidance, implementation approaches, and organizational 
+    context integration tailored to the organization's security ownership structure.
     
     CSF SPECIFICITY: This template focuses on governance outcomes that establish the foundation
-    for all other cybersecurity functions by ensuring mission alignment and strategic direction.
+    for all other cybersecurity functions by ensuring mission alignment and strategic direction,
+    with content adapted to organizational security responsibility maturity levels.
     
     TEMPLATE USAGE: Use this template to generate GV.OC-01 documentation that aligns with
-    strategic organizational objectives and creates the foundation for cybersecurity governance.
+    strategic organizational objectives and creates the foundation for cybersecurity governance
+    appropriate to the organization's security responsibility maturity level.
 -->
 <!-- END AI COMMENT -->
 
 <!-- BEGIN AI INSTRUCTION -->
 <!-- 
-    AI AGENTS: When using this GV.OC-01 template to generate control documentation:
+    AI AGENTS: When using this maturity-aware GV.OC-01 template to generate control documentation:
     
+    STANDARD CSF TEMPLATE OPERATIONS:
     1. SUBCATEGORY SPECIFICITY: This template is specifically for NIST CSF GV.OC-01
     2. GOVERNANCE FOCUS: Emphasize strategic mission alignment and organizational purpose
     3. REPLACE PLACEHOLDERS: Replace all {{PLACEHOLDER}} text with organization-specific content
-    4. ORGANIZATIONAL CONTEXT: Use context/ folder to tailor implementation to organization
-    5. IMPLEMENTATION TIERS: Consider current and target implementation tier levels
-    6. INFORMATIVE REFERENCES: Map to relevant standards and frameworks
-    7. MISSION ALIGNMENT: Connect cybersecurity strategy to organizational mission and values
-    8. OUTCOME ORIENTATION: Focus on achieving governance outcomes rather than compliance
-    9. SCALABILITY: Provide guidance for different organizational sizes and complexity
-    10. CONTINUOUS IMPROVEMENT: Emphasize ongoing enhancement and maturity growth
+    4. IMPLEMENTATION TIERS: Consider current and target implementation tier levels
+    5. INFORMATIVE REFERENCES: Map to relevant standards and frameworks
+    6. OUTCOME ORIENTATION: Focus on achieving governance outcomes rather than compliance
+    
+    MATURITY-AWARE ADAPTATIONS:
+    7. READ ORGANIZATIONAL MATURITY: Assess security_ownership level from organization profile
+    8. APPLY APPROPRIATE GOVERNANCE APPROACH: Use maturity-specific governance language and depth
+    9. INCLUDE RELEVANT GOVERNANCE SECTIONS: Show/hide sections based on maturity level
+    10. SET MATURITY-APPROPRIATE MISSION ALIGNMENT: Match governance approach to organizational capability
+    11. ADJUST STRATEGIC GUIDANCE: Provide strategic direction appropriate to maturity level
+    12. FOCUS ON MATURITY-RELEVANT GOVERNANCE: Emphasize governance areas important to maturity level
+    
+    MATURITY-SPECIFIC CONTENT ADAPTATION FOR GV.OC-01:
+    
+    IF security_ownership == "business_led":
+    - Use business executive language focused on business value and compliance
+    - Emphasize mission alignment in terms of business objectives and stakeholder value
+    - Include board-level governance and executive oversight considerations
+    - Focus on compliance-driven mission understanding and risk communication
+    - Provide simple mission-to-cybersecurity alignment frameworks
+    - Include vendor and consultant guidance for governance implementation
+    
+    IF security_ownership == "it_led":
+    - Use IT governance language focused on operational alignment and service delivery
+    - Emphasize mission alignment in terms of IT service objectives and operational efficiency
+    - Include IT governance integration and service management considerations
+    - Focus on operational risk management and IT service continuity
+    - Provide IT-centric mission understanding and technology alignment
+    - Include IT governance framework integration guidance
+    
+    IF security_ownership == "engineering_led":
+    - Use engineering and DevOps language focused on architectural alignment and scalability
+    - Emphasize mission alignment in terms of engineering objectives and system reliability
+    - Include engineering governance and architecture decision-making considerations
+    - Focus on technical risk management and system resilience
+    - Provide engineering-centric mission understanding and architecture alignment
+    - Include DevOps governance and continuous improvement frameworks
+    
+    IF security_ownership == "infosec_led":
+    - Use security professional language focused on threat landscape and security strategy
+    - Emphasize mission alignment in terms of security objectives and threat mitigation
+    - Include security governance and risk management framework considerations
+    - Focus on threat-informed risk management and security operations alignment
+    - Provide security-centric mission understanding and threat landscape alignment
+    - Include advanced security governance and strategic security planning
     
     CONTEXT REQUIREMENTS:
-    - Read context/organization/ files for mission statements and organizational purpose
+    - Read context/organization/ files for mission statements, organizational purpose, and maturity assessment
     - Read context/stakeholders/ files for stakeholder expectations and requirements
     - Read context/risks/ files for mission-related risk considerations
-    - Use organizational context to tailor mission understanding and governance approach
-    - Consider business priorities and strategic objectives
+    - Use organizational maturity context to tailor mission understanding and governance approach
+    - Consider business priorities and strategic objectives appropriate to maturity level
     
     QUALITY VALIDATION:
     - CSF language and intent must be preserved accurately
-    - Governance outcomes must be clearly articulated
-    - Implementation guidance must be practical and scalable
-    - Informative references must be accurate and relevant
-    - Assessment approaches must focus on effectiveness not just compliance
-    - Mission alignment pathways must be clearly defined
+    - Governance outcomes must be clearly articulated for the maturity level
+    - Implementation guidance must be practical and scalable to organizational capability
+    - Informative references must be accurate and relevant to maturity level
+    - Assessment approaches must focus on effectiveness appropriate to organizational maturity
+    - Mission alignment pathways must be clearly defined and achievable
+    - Maturity-appropriate governance language and depth must be consistent
 -->
 <!-- END AI INSTRUCTION -->
-<!-- END AI HEADER: 85 LINES --> 
+<!-- END AI HEADER: 120 LINES --> 
 
 # GV.OC-01 - Organizational Mission Understanding
 
@@ -68,6 +114,8 @@
 **Subcategory**: The organizational mission is understood and informs cybersecurity risk management  
 **Implementation Tier**: {{CURRENT_IMPLEMENTATION_TIER}}  
 **Target Tier**: {{TARGET_IMPLEMENTATION_TIER}}  
+**Security Maturity Level**: {{SECURITY_MATURITY_LEVEL}}  
+**Primary Responsibility**: {{PRIMARY_SECURITY_ROLE}}  
 **Implementation Status**: {{IMPLEMENTATION_STATUS}}  
 **Last Reviewed**: {{LAST_REVIEWED_DATE}}  
 **Next Review**: {{NEXT_REVIEW_DATE}}
@@ -189,6 +237,218 @@ Based on our organizational profile from `{{ORGANIZATION_CONTEXT_REFERENCE}}`:
 - Real-time mission impact assessment and response
 - Adaptive cybersecurity strategy based on mission evolution
 - Advanced mission-cybersecurity value measurement
+
+## Maturity-Appropriate Implementation Guidance
+
+{{#if_business_led}}
+### Business-Led Mission Understanding
+
+**Target Audience**: Business executives, office managers, senior leadership handling security responsibilities
+
+**Business-Focused Mission-Cybersecurity Alignment**:
+
+#### Executive Mission Briefing
+- **CEO/Executive Understanding**: Clear explanation of how cybersecurity supports business mission
+- **Board Communication**: Mission-aligned cybersecurity reporting and business case development
+- **Stakeholder Value**: Connect cybersecurity investments to mission delivery and stakeholder outcomes
+- **Compliance Alignment**: Frame mission understanding in terms of regulatory and contractual obligations
+
+#### Simple Mission-Cybersecurity Framework
+1. **Mission Impact Assessment**: {{BUSINESS_MISSION_IMPACT_ASSESSMENT}}
+   - What business operations would stop if systems fail?
+   - Which stakeholders would be affected and how?
+   - What is the financial impact of mission disruption?
+
+2. **Vendor Governance Integration**: {{BUSINESS_VENDOR_GOVERNANCE}}
+   - How to discuss mission requirements with security vendors
+   - Mission-aligned vendor selection criteria
+   - Governance oversight for mission-critical vendor services
+
+3. **Executive Oversight Process**: {{BUSINESS_EXECUTIVE_OVERSIGHT}}
+   - Monthly mission-cybersecurity alignment review meetings
+   - Executive dashboard showing mission risk and cybersecurity status
+   - Escalation procedures for mission-threatening cyber incidents
+
+**Success Indicators**:
+- [ ] Executive team can explain cybersecurity's role in mission delivery in under 5 minutes
+- [ ] Board receives mission-aligned cybersecurity reporting quarterly
+- [ ] Mission-critical vendor contracts include appropriate security requirements
+- [ ] {{BUSINESS_MISSION_SUCCESS_INDICATOR}}
+{{/if_business_led}}
+
+{{#if_it_led_plus}}
+### IT-Led Mission Integration
+
+**Target Audience**: IT managers, system administrators, IT service delivery teams
+
+**IT Service Mission Alignment**:
+
+#### IT Service Mission Mapping
+- **Service Catalog Alignment**: {{IT_SERVICE_MISSION_MAPPING}}
+  - Map IT services to mission-critical business functions
+  - Prioritize IT security based on mission service dependencies
+  - Integrate mission requirements into IT service level agreements
+
+#### Mission-Critical IT Infrastructure
+- **Infrastructure Prioritization**: {{IT_INFRASTRUCTURE_MISSION_PRIORITIZATION}}
+  - Identify IT systems that directly support organizational mission
+  - Implement tiered security controls based on mission criticality
+  - Develop mission-aware backup and recovery procedures
+
+#### IT Governance Integration
+- **IT Service Management**: {{IT_SERVICE_MANAGEMENT_MISSION_INTEGRATION}}
+  - Include mission impact assessments in change management
+  - Align IT incident response priorities with mission criticality
+  - Integrate mission understanding into IT strategic planning
+
+**IT Implementation Steps**:
+1. **Mission-IT Service Mapping**: Document how each IT service supports organizational mission
+2. **Mission-Critical System Identification**: Catalog and prioritize systems based on mission impact
+3. **Service Level Alignment**: Adjust IT SLAs to reflect mission criticality
+4. **Incident Response Integration**: Update incident response priorities based on mission impact
+
+**IT Success Indicators**:
+- [ ] IT service catalog includes mission impact ratings for all services
+- [ ] Mission-critical systems have enhanced security monitoring
+- [ ] IT incident response includes mission impact assessment procedures
+- [ ] {{IT_MISSION_SUCCESS_INDICATOR}}
+{{/if_it_led_plus}}
+
+{{#if_engineering_led_plus}}
+### Engineering-Led Mission Architecture
+
+**Target Audience**: DevOps engineers, platform teams, software architects, engineering managers
+
+**Mission-Driven Architecture**:
+
+#### Architecture Decision Records (ADRs) for Mission Alignment
+- **Mission-Informed Architecture**: {{ENGINEERING_MISSION_ARCHITECTURE}}
+  - Document architectural decisions that support organizational mission
+  - Include mission impact considerations in technology selection
+  - Design systems with mission resilience and availability requirements
+
+#### DevOps Mission Integration
+- **CI/CD Mission Awareness**: {{DEVOPS_MISSION_INTEGRATION}}
+  - Implement mission-critical deployment gates and approval processes
+  - Configure monitoring and alerting based on mission service impact
+  - Design infrastructure scaling to support mission service levels
+
+#### Mission-Driven Engineering Metrics
+- **Engineering KPIs**: {{ENGINEERING_MISSION_METRICS}}
+  - Service reliability metrics aligned with mission requirements
+  - Performance indicators that reflect mission service quality
+  - Engineering velocity metrics that consider mission service stability
+
+**Engineering Implementation Approach**:
+```yaml
+# Mission-Aware Infrastructure Configuration
+mission_critical_services:
+  - service_name: {{MISSION_CRITICAL_SERVICE_1}}
+    availability_requirement: 99.9%
+    security_tier: high
+    monitoring_level: comprehensive
+  
+  - service_name: {{MISSION_CRITICAL_SERVICE_2}}
+    availability_requirement: 99.95%
+    security_tier: critical
+    monitoring_level: real_time
+
+mission_support_architecture:
+  redundancy: active_active
+  backup_strategy: multi_region
+  security_controls: defense_in_depth
+```
+
+**Engineering Success Indicators**:
+- [ ] Architecture decisions explicitly consider mission impact
+- [ ] Mission-critical services have automated reliability monitoring
+- [ ] Deployment pipelines include mission impact assessment gates
+- [ ] {{ENGINEERING_MISSION_SUCCESS_INDICATOR}}
+{{/if_engineering_led_plus}}
+
+{{#if_infosec_led}}
+### Security Professional Mission Integration
+
+**Target Audience**: Information security professionals, security architects, GRC teams, security managers
+
+**Threat-Informed Mission Protection**:
+
+#### Mission-Threat Landscape Analysis
+- **Mission-Specific Threats**: {{INFOSEC_MISSION_THREAT_ANALYSIS}}
+  - Analyze threat actors specifically targeting organizational mission
+  - Assess threat techniques that could disrupt mission delivery
+  - Model adversary impact on mission-critical assets and processes
+
+#### Security Architecture Mission Alignment
+- **Mission-Centric Security Design**: {{INFOSEC_MISSION_SECURITY_ARCHITECTURE}}
+  - Design security controls around mission protection objectives
+  - Implement zero-trust architecture for mission-critical systems
+  - Develop security operations procedures for mission scenarios
+
+#### Strategic Security Planning
+- **Mission-Driven Security Strategy**: {{INFOSEC_MISSION_SECURITY_STRATEGY}}
+  - Align security program strategy with organizational mission objectives
+  - Develop security roadmap that enhances mission delivery capabilities
+  - Integrate mission considerations into security governance processes
+
+**Security Professional Implementation**:
+
+#### Threat Intelligence Integration
+```yaml
+mission_threat_intelligence:
+  threat_actors:
+    - actor_type: {{MISSION_THREAT_ACTOR_1}}
+      mission_impact: {{THREAT_IMPACT_ON_MISSION}}
+      mitigation_controls: {{THREAT_SPECIFIC_CONTROLS}}
+  
+  attack_scenarios:
+    - scenario: mission_service_disruption
+      likelihood: {{SCENARIO_LIKELIHOOD}}
+      business_impact: {{MISSION_BUSINESS_IMPACT}}
+      detection_controls: {{SCENARIO_DETECTION_CONTROLS}}
+```
+
+#### Security Operations Mission Integration
+- **SOC Mission Awareness**: Configure security operations to prioritize mission-critical alerts
+- **Incident Response Mission Focus**: Develop incident response playbooks for mission-threatening scenarios
+- **Threat Hunting Mission Targeting**: Focus threat hunting activities on mission-critical assets and processes
+
+**InfoSec Success Indicators**:
+- [ ] Security strategy explicitly aligned with organizational mission
+- [ ] Threat intelligence includes mission-specific threat analysis
+- [ ] Security operations prioritize mission-critical asset protection
+- [ ] {{INFOSEC_MISSION_SUCCESS_INDICATOR}}
+{{/if_infosec_led}}
+
+{{#if_advanced_infosec}}
+### Advanced InfoSec Mission Integration
+
+**Advanced Mission Protection Capabilities**:
+
+#### Mission-Aware Threat Hunting
+- **Advanced Threat Detection**: {{ADVANCED_MISSION_THREAT_HUNTING}}
+  - Deploy AI/ML threat detection specifically tuned for mission-critical assets
+  - Develop behavioral analytics for mission service anomaly detection
+  - Implement advanced persistent threat (APT) hunting focused on mission disruption
+
+#### Strategic Security Leadership
+- **Industry Mission Leadership**: {{ADVANCED_MISSION_SECURITY_LEADERSHIP}}
+  - Participate in industry security initiatives that protect sector mission objectives
+  - Develop thought leadership on mission-aligned cybersecurity strategies
+  - Contribute to security standards development that supports organizational missions
+
+#### Mission Security Research
+- **Advanced Security Research**: {{ADVANCED_MISSION_SECURITY_RESEARCH}}
+  - Conduct security research on mission-specific threat vectors
+  - Develop novel security solutions for mission-critical scenarios
+  - Collaborate with academic and industry researchers on mission security topics
+
+**Advanced Success Indicators**:
+- [ ] Organization recognized as industry leader in mission-aligned cybersecurity
+- [ ] Advanced threat detection capabilities specifically protect mission objectives
+- [ ] Security research contributes to mission protection innovation
+- [ ] {{ADVANCED_MISSION_SUCCESS_INDICATOR}}
+{{/if_advanced_infosec}}
 
 ## Technology Implementation
 
