@@ -7,7 +7,7 @@
     RATING: foundational
     PURPOSE: Central Navigation Hub and Repository Site Map
     UPDATE: High
-    Updated: 2025-01-27
+    Updated: 2025-08-05
 -->
 <!-- END AI FILE SUMMARY -->
 
@@ -59,13 +59,13 @@
 ### 🤖 **AI Agents - Automation**
 - **Agent Standards**: [`methods/AGENT.md`](methods/AGENT.md) - Complete AI guidance and protocols
 - **Template System**: [`methods/templates/controls/README.md`](methods/templates/controls/README.md) - Control template suite
-- **Task Lists**: [`development/TODO.md`](development/TODO.md) - Comprehensive project TODO list
+- **Task Lists**: [`development/tasks/development-todo.md`](development/tasks/development-todo.md) - Comprehensive project TODO list
 - **Workflow Patterns**: [`development/README.md#key-development-workflows`](development/README.md#key-development-workflows) - Development workflows
 
 ### 👨‍💻 **Developers - Technical Work**
 - **Development Process**: [`development/README.md`](development/README.md) - Development workflows and standards
-- **Project TODO**: [`development/TODO.md`](development/TODO.md) - All project tasks and priorities
-- **Agent Configurations**: [`development/`](development/) - Specialized agent setup guides
+- **Project TODO**: [`development/tasks/development-todo.md`](development/tasks/development-todo.md) - All project tasks and priorities
+- **Agent Configurations**: [`development/agents/`](development/agents/) - Specialized agent setup guides
 - **Quality Standards**: [`development/CONTRIBUTING.md`](development/CONTRIBUTING.md) - Code quality and standards
 
 ### 📊 **Framework Specialists - NIST Implementation**
@@ -77,20 +77,50 @@
 ## Directory Structure Overview
 
 ```
-📁 dm-control-frameworks-template/
+📁 dm-nist/
 ├── 📄 README.md                     # Main project overview and entry point
 ├── 📄 NAVIGATION.md                 # This navigation hub (you are here)
 ├── 📄 LICENSE                       # MIT license information
-├── 📄 maturity_proposal.md          # Organizational maturity matrix proposal
-├── 📄 NIST-CSF-TEMPLATE-ACHIEVEMENT-SUMMARY.md  # Project achievements summary
+├── 📄 inventory.md                  # Project inventory and assets
 │
 ├── 📁 development/                  # Development process and internal docs
 │   ├── 📄 README.md                # Development guide and workflows
-│   ├── 📄 TODO.md                  # Comprehensive project task list
+│   ├── 📄 QUICK-REFERENCE.md       # Quick access to common workflows
 │   ├── 📄 CONTRIBUTING.md          # Contribution guidelines
-│   ├── 📄 optimizations.md         # Repository optimization analysis
-│   ├── 📄 current_state_analysis.md # Repository state analysis
-│   └── 📄 [agent-configs].md       # Various agent configuration files
+│   │
+│   ├── 📁 agents/                  # AI agent configurations and guides
+│   │   ├── 📄 agent-quick-reference.md           # Agent quick reference
+│   │   ├── 📄 ai-agent-maturity-integration-guide.md  # Maturity integration
+│   │   ├── 📄 continuous-agent-system.md         # Continuous agent system
+│   │   ├── 📄 cursor-agent-setup.md              # Cursor agent setup
+│   │   ├── 📄 documentation-agent-config.md      # Documentation agent config
+│   │   ├── 📄 dual-agent-setup-guide.md          # Dual agent setup
+│   │   └── 📄 template-improvement-agent-config.md # Template improvement agent
+│   │
+│   ├── 📁 analysis/                # Repository analysis and optimization
+│   │   ├── 📄 agentic-analysis.md                # Agentic analysis
+│   │   ├── 📄 current-state-analysis.md          # Current state analysis
+│   │   └── 📄 optimization-recommendations.md    # Optimization recommendations
+│   │
+│   ├── 📁 achievements/            # Project achievements and milestones
+│   │   └── 📄 nist-csf-achievement-summary.md    # NIST CSF achievements
+│   │
+│   ├── 📁 agent-work/              # AI agent work products
+│   │   ├── 📄 template-expansion-summary.md      # Template expansion work
+│   │   ├── 📄 template-generation-summary.md     # Template generation work
+│   │   └── 📄 template-meta-analysis.md          # Template meta analysis
+│   │
+│   ├── 📁 implementations/         # Implementation guides and summaries
+│   │   └── 📄 maturity-implementation-summary.md # Maturity implementation
+│   │
+│   ├── 📁 progress/                # Project progress tracking
+│   │   └── 📄 csf-progress-report.md             # CSF progress report
+│   │
+│   ├── 📁 proposals/               # Project proposals and plans
+│   │   └── 📄 maturity-proposal.md               # Maturity matrix proposal
+│   │
+│   └── 📁 tasks/                   # Task management and tracking
+│       └── 📄 development-todo.md                # Development TODO list
 │
 ├── 📁 methods/                      # Core methodology and standards
 │   ├── 📄 README.md                # Methods folder overview
@@ -133,15 +163,15 @@
 4. **Test Implementation**: [`context/`](context/) → Use organizational context for testing
 
 ### 🔧 **Improving Documentation**
-1. **Check TODO List**: [`development/TODO.md`](development/TODO.md) → Find tasks to work on
+1. **Check TODO List**: [`development/tasks/development-todo.md`](development/tasks/development-todo.md) → Find tasks to work on
 2. **Review Guidelines**: [`development/CONTRIBUTING.md`](development/CONTRIBUTING.md) → Quality standards
 3. **Follow Process**: [`development/README.md#documentation-improvement-workflow`](development/README.md#documentation-improvement-workflow)
 4. **Update Cross-References**: This navigation hub → Update links as needed
 
 ### 🤖 **Setting Up AI Agents**
 1. **Read AI Standards**: [`methods/AGENT.md`](methods/AGENT.md) → Complete guidance
-2. **Review Agent Configs**: [`development/`](development/) → Specialized configurations
-3. **Check Task Lists**: [`development/TODO.md`](development/TODO.md) → Available tasks
+2. **Review Agent Configs**: [`development/agents/`](development/agents/) → Specialized configurations
+3. **Check Task Lists**: [`development/tasks/development-todo.md`](development/tasks/development-todo.md) → Available tasks
 4. **Follow Workflows**: [`development/README.md#key-development-workflows`](development/README.md#key-development-workflows)
 
 ## Quick Reference Links
@@ -150,7 +180,7 @@
 - [Project README](README.md) - Main project overview
 - [Development Guide](development/README.md) - How to develop and contribute
 - [AI Agent Standards](methods/AGENT.md) - Complete AI guidance
-- [Project TODO List](development/TODO.md) - All project tasks
+- [Project TODO List](development/tasks/development-todo.md) - All project tasks
 - [Contributing Guidelines](development/CONTRIBUTING.md) - How to contribute
 
 ### 🎯 **Framework Implementation**
@@ -173,9 +203,21 @@
 
 ### 🔧 **Development Resources**
 - [Development Process](development/README.md) - Development workflows
-- [Task Management](development/TODO.md) - Project task tracking
+- [Task Management](development/tasks/development-todo.md) - Project task tracking
 - [Quality Standards](development/CONTRIBUTING.md) - Contribution guidelines
-- [Optimization Analysis](development/optimizations.md) - Repository optimizations
+- [Analysis Reports](development/analysis/) - Repository analysis and optimization
+
+### 🤖 **AI Agent Resources**
+- [Agent Quick Reference](development/agents/agent-quick-reference.md) - Quick agent reference
+- [Agent Configurations](development/agents/) - All agent setup guides
+- [Agent Work Products](development/agent-work/) - AI agent work outputs
+- [Maturity Integration](development/agents/ai-agent-maturity-integration-guide.md) - Maturity integration guide
+
+### 📈 **Project Progress & Achievements**
+- [Achievements Summary](development/achievements/nist-csf-achievement-summary.md) - Project achievements
+- [Progress Reports](development/progress/) - Project progress tracking
+- [Implementation Guides](development/implementations/) - Implementation summaries
+- [Proposals](development/proposals/) - Project proposals and plans
 
 ## Search Strategies
 
@@ -193,8 +235,9 @@
 ### 🏷️ **Content by Topic**
 - **NIST Frameworks**: [`methods/adoption/`](methods/adoption/) and [`methods/templates/frameworks/`](methods/templates/frameworks/)
 - **Templates**: [`methods/templates/`](methods/templates/) for all template types
-- **AI/Automation**: [`methods/AGENT.md`](methods/AGENT.md) and [`development/`](development/) agent configs
+- **AI/Automation**: [`methods/AGENT.md`](methods/AGENT.md) and [`development/agents/`](development/agents/) agent configs
 - **Organization**: [`context/`](context/) for organizational context and setup
+- **Development**: [`development/`](development/) for all development-related content
 
 ## Getting Help
 
