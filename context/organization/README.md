@@ -14,7 +14,7 @@
 <!-- BEGIN AI COMMENT -->
 <!-- 
     ORGANIZATION CONTEXT: This folder contains documentation about organizational
-    structure, governance, and culture that affects NIST control implementation.
+    structure, governance, and culture that affects control implementation.
     AI agents should use this information to tailor recommendations to the specific
     organizational environment and capabilities.
 -->
@@ -40,7 +40,7 @@
 
 ## Overview
 
-This folder contains documentation about organizational structure, governance, stakeholders, and operational characteristics that influence NIST control implementation approaches and success factors.
+This folder contains documentation about organizational structure, governance, stakeholders, and operational characteristics that influence control implementation approaches and success factors.
 
 ## What You'll Find Here
 

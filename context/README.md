@@ -40,7 +40,7 @@
 
 ## Overview
 
-This folder contains organizational context documentation that provides essential background information for effective NIST control implementation. Context information ensures that recommendations and implementations are tailored to specific organizational needs, capabilities, and constraints.
+This folder contains organizational context documentation that provides essential background information for effective control implementation. Context information ensures that recommendations and implementations are tailored to specific organizational needs, capabilities, and constraints.
 
 ## What You'll Find Here
 

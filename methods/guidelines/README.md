@@ -14,7 +14,7 @@
 <!-- BEGIN AI COMMENT -->
 <!-- 
     GUIDELINES FOLDER: This folder contains best practices, documentation standards,
-    and quality guidelines for NIST control implementation. AI agents should reference
+    and quality guidelines for control implementation. AI agents should reference
     these guidelines when creating documentation or providing implementation guidance
     to ensure consistency and quality across all materials.
 -->
@@ -40,14 +40,14 @@
 
 ## Overview
 
-This folder contains best practices, documentation standards, and quality guidelines for NIST documentation and control implementation. These guidelines ensure consistency, quality, and effectiveness across all documentation and implementation efforts.
+This folder contains best practices, documentation standards, and quality guidelines for documentation and control implementation. These guidelines ensure consistency, quality, and effectiveness across all documentation and implementation efforts.
 
 ## What You'll Find Here
 
 ### Core Guidelines (To Be Created)
 - **documentation-standards.md** - Comprehensive documentation formatting and quality standards
 - **ai-header-format.md** - Detailed AI header format specifications and requirements
-- **control-documentation-guidelines.md** - Standards for documenting NIST controls
+- **control-documentation-guidelines.md** - Standards for documenting controls
 - **implementation-best-practices.md** - Best practices for control implementation
 - **quality-assurance-checklist.md** - Quality validation checklists for documentation
 - **naming-conventions.md** - File and folder naming standards
@@ -92,7 +92,7 @@ This folder serves as the quality and standards hub, providing:
 - **Best Practices** for effective control implementation
 - **Process Guidelines** for systematic approaches to documentation and implementation
 
-Use this folder when you need guidance on how to create, review, or implement NIST-related documentation and controls.
+Use this folder when you need guidance on how to create, review, or implement documentation and controls.
 
 ## Guidelines Development
 
@@ -111,7 +111,7 @@ Use this folder when you need guidance on how to create, review, or implement NI
 <!-- BEGIN AI COMMENT -->
 <!-- 
     GUIDELINES FOLDER NOTES: This folder will contain the standards and best practices
-    that ensure quality and consistency across all NIST documentation and implementation
+    that ensure quality and consistency across all documentation and implementation
     efforts. As guidelines are developed, they should be comprehensive, practical,
     and based on proven experience.
     

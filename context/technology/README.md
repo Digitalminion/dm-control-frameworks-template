@@ -40,7 +40,7 @@
 
 ## Overview
 
-This folder contains documentation about technology infrastructure, systems architecture, and technical environment that influences the selection and implementation of NIST technical controls.
+This folder contains documentation about technology infrastructure, systems architecture, and technical environment that influences the selection and implementation of technical controls.
 
 ## What You'll Find Here
 

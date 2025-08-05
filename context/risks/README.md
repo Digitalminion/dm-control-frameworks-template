@@ -40,7 +40,7 @@
 
 ## Overview
 
-This folder contains documentation about risk environment, threat landscape, vulnerabilities, and compliance requirements that drive NIST control selection and implementation priorities.
+This folder contains documentation about risk environment, threat landscape, vulnerabilities, and compliance requirements that drive control implementation priorities.
 
 ## What You'll Find Here
 
