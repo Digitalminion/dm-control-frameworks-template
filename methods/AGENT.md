@@ -95,6 +95,13 @@
     - Content structure matches established patterns
     - Cross-references and dependencies are updated
     - AI comments provide appropriate contextual guidance
+    
+    QUALITY ASSURANCE CHECKLISTS:
+    - ALWAYS use appropriate checklists from development/checklists/ for quality validation
+    - For NIST CSF templates: Use development/checklists/nist-csf.checklist.md
+    - Follow checklists systematically to ensure quality standards are met
+    - Validate against checklist requirements before finalizing content
+    - Ensure templates meet minimum quality thresholds (200+ lines for basic, 400+ lines for comprehensive)
 -->
 <!-- END AI INSTRUCTION: QUALITY STANDARDS -->
 <!-- BEGIN AI INSTRUCTION: TEMPLATE USAGE -->

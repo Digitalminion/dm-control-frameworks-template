@@ -97,6 +97,8 @@ The Template Improvement Agent is responsible for enhancing the core template re
 - **Examples**: Provide concrete examples where helpful
 - **Validation**: Include quality check requirements
 - **Integration**: Ensure instructions work with agent capabilities
+- **Checklist Integration**: Include checklist usage guidance in template instructions
+- **Quality Standards**: Reference appropriate checklists for quality validation
 
 ### Quality Criteria Enhancement
 - **Completeness**: Ensure all required elements are covered
@@ -131,6 +133,8 @@ The Template Improvement Agent is responsible for enhancing the core template re
 "Improve this template for better documentation agent effectiveness"
 "Enhance template structure and instructions for clearer guidance"
 "Optimize template quality standards and validation criteria"
+"Update template to include checklist usage guidance from development/checklists/"
+"Enhance template quality validation using appropriate checklists"
 ```
 
 ### Workflow Optimization Commands
@@ -145,6 +149,8 @@ The Template Improvement Agent is responsible for enhancing the core template re
 "Enhance validation rules for better documentation quality"
 "Improve consistency standards across all templates"
 "Create performance metrics for quality measurement"
+"Update checklists in development/checklists/ based on new quality requirements"
+"Enhance checklist validation criteria for better quality assurance"
 ```
 
 ## Performance Optimization
@@ -188,6 +194,8 @@ The Template Improvement Agent is responsible for enhancing the core template re
 - **Efficiency**: Improvements must reduce time and effort
 - **Quality**: Improvements must maintain or enhance quality
 - **Integration**: Improvements must work with existing systems
+- **Checklist Compliance**: Improvements must align with checklist quality standards
+- **Validation Framework**: Improvements must support checklist validation processes
 
 ## Future Enhancement Planning
 

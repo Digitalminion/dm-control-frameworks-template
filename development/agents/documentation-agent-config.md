@@ -118,6 +118,14 @@ The Documentation Agent is responsible for creating and managing NIST documentat
 - **Validation**: Meet all template quality criteria
 - **Integration**: Work with existing documentation patterns
 
+### Quality Assurance Checklists
+- **Checklist Usage**: ALWAYS use appropriate checklists from `development/checklists/` for quality validation
+- **NIST CSF Templates**: Use `development/checklists/nist-csf.checklist.md` for all NIST CSF template creation and enhancement
+- **Systematic Validation**: Follow checklists systematically to ensure quality standards are met
+- **Quality Thresholds**: Ensure templates meet minimum quality thresholds (200+ lines for basic, 400+ lines for comprehensive)
+- **Framework Fidelity**: Validate exact framework language and intent preservation
+- **Cross-Reference Integration**: Ensure comprehensive relationship mapping between content
+
 ## Common Commands and Tasks
 
 ### Content Creation Commands
@@ -125,6 +133,7 @@ The Documentation Agent is responsible for creating and managing NIST documentat
 "Create a new NIST control documentation for [CONTROL_ID] using the appropriate template"
 "Generate organizational context files using templates from methods/templates/"
 "Create documentation for [FRAMEWORK] controls following established patterns"
+"Use development/checklists/nist-csf.checklist.md to validate NIST CSF template quality"
 ```
 
 ### Update Commands
@@ -139,6 +148,8 @@ The Documentation Agent is responsible for creating and managing NIST documentat
 "Validate this documentation against established quality standards"
 "Check cross-references and update as needed"
 "Ensure this content follows established patterns"
+"Run quality validation using development/checklists/nist-csf.checklist.md"
+"Validate template quality against checklist requirements"
 ```
 
 ## Error Prevention and Resolution
@@ -154,6 +165,7 @@ The Documentation Agent is responsible for creating and managing NIST documentat
 2. **Validate Templates**: Ensure template exists and is properly formatted
 3. **Quality Review**: Check against established patterns and standards
 4. **Update References**: Fix cross-references and maintain consistency
+5. **Use Checklists**: Apply appropriate checklists from `development/checklists/` for quality validation
 
 ## Performance Optimization
 
