@@ -70,11 +70,13 @@ This folder contains the methodology, standards, and templates that guide our NI
 
 ### If You're Looking for Templates
 The `methods/templates/` folder contains templates for:
-- Organizational profiles
-- Technology stack documentation
-- Risk assessments
-- Stakeholder information
-- Operational procedures
+- **Generic Control Templates** (`controls/`): Universal templates for control documentation structure
+- **Framework-Specific Templates** (`frameworks/`): Specialized templates for NIST 800-53, 800-171, and CSF
+  - **NIST 800-53**: Detailed technical control templates with baseline-specific guidance
+  - **NIST 800-171**: CUI-focused templates for non-federal organizations and contractors
+  - **NIST CSF**: Strategic, outcome-oriented templates with implementation tier guidance
+- **Organizational Templates**: Standardized formats for stakeholder, risk, and technology documentation
+- **Meta-Analysis Framework**: Comprehensive template evaluation and improvement methodology
 
 ### If You're Working on NIST Implementation
 The `methods/adoption/` folder contains our organization's approach to:
