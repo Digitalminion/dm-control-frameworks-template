@@ -24,16 +24,10 @@
 
 <!-- BEGIN AI INSTRUCTION -->
 <!--
-    AI AGENTS: When working with adoption documentation in this folder:
-    1. Follow the AI header standards from methods/agent.md
-    2. Consider organizational context from context/ folder
-    3. Apply our specific implementation approaches and constraints
-    4. Reference relevant control documentation from controls/ folder
-    5. Maintain consistency with our established patterns and standards
-    6. Consider risk-based implementation strategies
-    7. Address organizational capabilities and limitations
-    8. Reference framework-specific documentation in frameworks/ subfolders
-    9. Monitor checkbox changes in framework folders to trigger documentation creation/improvement
+    AI AGENTS: For complete guidance see methods/agent.md.
+    Adoption-specific focus: Use risk-based implementation strategies, monitor
+    checkbox changes in framework folders, and coordinate between different
+    framework implementations.
 -->
 <!-- END AI INSTRUCTION -->
 <!-- END AI HEADER: 60 LINES --> 
@@ -41,6 +35,18 @@
 # NIST Framework Adoption
 
 > **Navigation:** [🏠 Root](../../README.md) › [📁 Methods](../README.md) › **Adoption**
+
+## Table of Contents
+
+- [Overview](#overview)
+- [NIST Framework Landscape](#nist-framework-landscape)
+- [Our Adoption Approach](#our-adoption-approach)
+- [Framework-Specific Approaches](#framework-specific-approaches)
+- [Organizational Considerations](#organizational-considerations)
+- [Framework Customization](#framework-customization)
+- [Success Metrics](#success-metrics)
+- [Adoption Tracking and Documentation Status](#adoption-tracking-and-documentation-status)
+- [Next Steps](#next-steps)
 
 ## Overview
 

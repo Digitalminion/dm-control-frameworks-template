@@ -2,6 +2,23 @@
 
 > **Navigation:** [🏠 Root](README.md) › **Maturity Proposal**
 
+## Table of Contents
+
+- [Executive Summary](#executive-summary)
+- [Maturity Matrix Overview](#maturity-matrix-overview)
+- [Maturity Level Combinations and Documentation Approaches](#maturity-level-combinations-and-documentation-approaches)
+  - [Level 1: Business-Led Security Organizations](#level-1-business-led-security-organizations)
+  - [Level 2: IT-Led Security Organizations](#level-2-it-led-security-organizations)
+  - [Level 3: Engineering-Led Security Organizations](#level-3-engineering-led-security-organizations)
+  - [Level 4: InfoSec-Led Security Organizations](#level-4-infosec-led-security-organizations)
+- [AI-Guided Dynamic Documentation Generation Framework](#ai-guided-dynamic-documentation-generation-framework)
+- [Vendor/Consultant Guidance](#vendorconsultant-guidance)
+- [Security Responsibility Assessment](#security-responsibility-assessment)
+- [Maturity-Driven Template Preferences](#maturity-driven-template-preferences)
+- [Benefits and Expected Outcomes](#benefits-and-expected-outcomes)
+- [Quality Metrics and Success Indicators](#quality-metrics-and-success-indicators)
+- [Conclusion](#conclusion)
+
 ## Executive Summary
 
 This proposal introduces an **Organizational Maturity Matrix (OMM)** that provides a structured approach to managing control documentation complexity based on organizational readiness, capabilities, and context. By aligning documentation depth and implementation guidance with organizational maturity, we ensure that control frameworks are neither too immature nor too complex for the implementing organization.
