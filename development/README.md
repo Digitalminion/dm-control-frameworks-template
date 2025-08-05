@@ -35,14 +35,14 @@
 
 ## Overview
 
-This repository serves as a centralized documentation store for NIST (National Institute of Standards and Technology) control IDs within our IT organization. The goal is to create a structured, linked documentation system that can be easily explored and navigated through the GitHub UI and other interfaces.
+This repository serves as a centralized documentation store for cybersecurity control IDs (for example, those defined by frameworks such as NIST) within our IT organization. The goal is to create a structured, linked documentation system that can be easily explored and navigated through the GitHub UI and other interfaces.
 
 ## Goals
 
 ### Primary Objectives
 
-1. **Centralized Documentation**: Create a single source of truth for all NIST control-related documentation within our IT organization
-2. **Structured Organization**: Use file structure and markdown formatting to organize documentation by NIST control IDs
+1. **Centralized Documentation**: Create a single source of truth for all control-related documentation within our IT organization
+2. **Structured Organization**: Use file structure and markdown formatting to organize documentation by control identifiers
 3. **Linked Documentation**: Establish cross-references and links between related controls and documentation
 4. **GitHub UI Navigation**: Enable easy exploration and discovery through GitHub's web interface
 5. **Extensibility**: Design the structure to support future integration with other documentation platforms
@@ -50,7 +50,7 @@ This repository serves as a centralized documentation store for NIST (National I
 
 ### Documentation Structure
 
-- **File-based Organization**: Each NIST control will have its own directory/file structure
+- **File-based Organization**: Each control will have its own directory/file structure
 - **Markdown Formatting**: All documentation will use markdown for consistent formatting and readability
 - **Cross-linking**: Documentation will include links to related controls and external references
 - **Version Control**: All changes will be tracked through Git for audit trails
@@ -68,7 +68,7 @@ This repository serves as a centralized documentation store for NIST (National I
 ## Repository Structure
 
 The repository will be organized to support:
-- Individual NIST control documentation
+- Individual control documentation
 - Cross-references between controls
 - Supporting materials and resources
 - Templates for consistent documentation
@@ -77,12 +77,12 @@ The repository will be organized to support:
 
 The `methods/` folder contains:
 - **AI Agent Guidance**: Complete standards and protocols for AI agents (`methods/agent.md`)
-- **Documentation Approaches**: Documents that inform our overall approach to NIST control documentation
+- **Documentation Approaches**: Documents that inform our overall approach to control documentation
 - **Templates**: Standardized templates for specific types of documentation we want to create
 - **Guidelines**: Best practices and standards for maintaining consistent documentation across the organization
 - **Adoption**: Notes and approaches for different parts of the NIST frameworks
 
-This folder serves as the foundation for our documentation methodology and ensures consistency across all NIST control documentation.
+This folder serves as the foundation for our documentation methodology and ensures consistency across all control documentation.
 
 #### Adoption 
 

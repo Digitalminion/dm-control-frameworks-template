@@ -20,17 +20,19 @@
 <!-- END AI COMMENT -->
 <!-- END AI HEADER: 25 LINES --> 
 
-# NIST Documentation Template
+# Cybersecurity Control Frameworks Documentation Template
 
-A comprehensive, AI-optimized template repository for organizations implementing NIST cybersecurity frameworks. Created by [Digital Minion LLC](https://digitalminion.com).
+A comprehensive, AI-optimized template repository for organizations implementing cybersecurity control frameworks. Created by [Digital Minion LLC](https://digitalminion.com).
+
+> **Note:** While many examples in this repository reference the NIST family of frameworks, the structure, methodology, and templates are intentionally designed to be framework-agnostic and can be adapted to any industry-recognized cybersecurity or privacy control framework.
 
 ## 🎯 Overview
 
-This repository provides a structured, scalable foundation for documenting NIST control implementations across your organization. Built with AI agents in mind, it offers:
+This repository provides a structured, scalable foundation for documenting control implementations across your organization. Built with AI agents in mind, it offers:
 
-- **Standardized Documentation Structure** - Consistent patterns for all NIST controls
+- **Standardized Documentation Structure** - Consistent patterns for all controls
 - **AI-Optimized Content** - Structured metadata and clear relationships for AI processing
-- **Framework Flexibility** - Support for NIST CSF, 800-53, 800-171, and other frameworks
+- **Framework Flexibility** - Support for multiple frameworks and adaptable templates
 - **Template-Driven Approach** - Reusable templates for common documentation needs
 - **Quality Assurance** - Built-in validation and completeness checking
 
@@ -61,7 +63,7 @@ dm-control-frameworks-template/
 │   ├── templates/       # Reusable documentation templates
 │   └── agent.md         # AI agent standards and protocols
 ├── context/             # Organizational context (generated from templates)
-└── controls/            # NIST control documentation (to be created)
+└── controls/            # Control documentation (to be created)
 ```
 
 ## 🛠️ Key Features
@@ -87,7 +89,7 @@ dm-control-frameworks-template/
 ## 📋 Prerequisites
 
 - GitHub account for repository access
-- Basic understanding of NIST cybersecurity frameworks
+- Basic understanding of cybersecurity control frameworks
 - Markdown editing capabilities
 - (Optional) AI agent integration for enhanced automation
 
@@ -112,7 +114,7 @@ dm-control-frameworks-template/
 
 ## 📖 Usage
 
-### Getting Started with NIST Controls
+### Getting Started with Controls
 
 1. **Choose your framework** from `methods/adoption/`
 2. **Use appropriate templates** from `methods/templates/`
