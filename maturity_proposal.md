@@ -17,221 +17,279 @@ Rather than providing static, one-size-fits-all documentation, the OMM dynamical
 
 ## Maturity Matrix Overview
 
-### Four Maturity Dimensions
+### Four Security Responsibility Maturity Dimensions
 
-#### 1. **Organizational Scale & Structure**
-- **Startup** (1-50 employees): Minimal hierarchy, informal processes
-- **Small Business** (51-250 employees): Basic structure, emerging processes  
-- **Medium Enterprise** (251-1000 employees): Formal structure, established processes
-- **Large Enterprise** (1000+ employees): Complex structure, mature processes
+#### 1. **Security Ownership & Accountability**
+- **Business-Led** (Level 1): Business stakeholders handle security as additional responsibility
+- **IT-Led** (Level 2): IT department owns security with general IT skills
+- **Engineering-Led** (Level 3): Engineering teams integrate security into development/operations
+- **InfoSec-Led** (Level 4): Dedicated information security professionals and teams
 
-#### 2. **Cybersecurity Capability Level**
-- **Foundational** (Level 1): Basic awareness, reactive approach
-- **Developing** (Level 2): Proactive planning, some expertise
-- **Mature** (Level 3): Comprehensive program, dedicated resources
-- **Advanced** (Level 4): Innovation-driven, industry-leading practices
+#### 2. **Security Specialization Depth**
+- **Generalist** (Level 1): One person/role handles all security concerns
+- **Domain-Focused** (Level 2): Security roles differentiated by domain (network, app, compliance)
+- **Function-Specialized** (Level 3): Specialized roles (SOC analyst, security architect, compliance manager)
+- **Practice-Expert** (Level 4): Deep specialization (threat hunter, forensics analyst, security researcher)
 
-#### 3. **Regulatory/Compliance Context**
-- **Minimal** (Level 1): Basic business requirements only
-- **Standard** (Level 2): Industry standards compliance (SOX, PCI-DSS)
-- **Enhanced** (Level 3): Federal contractor requirements (NIST 800-171)
-- **Critical** (Level 4): High-security environments (NIST 800-53 High)
+#### 3. **Security Decision-Making Authority**
+- **Informal** (Level 1): Security decisions made ad-hoc by available personnel
+- **Designated** (Level 2): Specific individual designated for security decisions
+- **Structured** (Level 3): Security council/committee with defined decision rights
+- **Autonomous** (Level 4): Security organization with independent authority and budget
 
-#### 4. **Technical Infrastructure Sophistication**
-- **Basic** (Level 1): Essential systems, limited integration
-- **Intermediate** (Level 2): Standard enterprise tools, some automation
-- **Advanced** (Level 3): Integrated security tools, significant automation
-- **Leading** (Level 4): AI/ML integration, full automation, cloud-native
+#### 4. **Security Operations Maturity**
+- **Reactive** (Level 1): Security handled when issues arise or audits occur
+- **Planned** (Level 2): Regular security activities scheduled and tracked
+- **Integrated** (Level 3): Security operations integrated into business processes
+- **Continuous** (Level 4): Always-on security operations with real-time response
 
 ## Maturity Level Combinations and Documentation Approaches
 
-### Level 1: **Foundation Builder Organizations**
-*Startup/Small + Foundational/Developing + Minimal/Standard + Basic/Intermediate*
+### Level 1: **Business-Led Security Organizations**
+*Business-Led + Generalist + Informal + Reactive*
+
+**Security Context:**
+- Business managers, office managers, or executives handle security "when needed"
+- One person wears multiple hats including security responsibilities
+- Security decisions made during business meetings or crisis situations
+- Security activities triggered by compliance deadlines or incidents
 
 **Documentation Characteristics:**
-- **Simplified templates** with essential-only sections
-- **Quick-start guides** with immediate actionable steps
-- **Pre-configured checklists** for common scenarios
-- **Resource-conscious** implementation timelines
-- **Business-language explanations** avoiding technical jargon
+- **Business-language explanations** with minimal technical jargon
+- **Executive-friendly checklists** that can be delegated to staff
+- **Vendor/consultant-ready specifications** for outsourcing implementation
+- **Compliance-focused guidance** tied to business requirements
+- **Time-efficient approaches** that don't disrupt primary business functions
 
 **Example Control Documentation Structure:**
 ```markdown
-# Control [ID]: [Name] - Foundation Level
+# Control [ID]: [Name] - Business-Led Level
 
-## What This Means for Your Business
-[2-3 sentence business explanation]
+## Why This Matters to Your Business
+[Risk and compliance impact in business terms]
 
-## Quick Implementation Steps
-1. [Step 1 - 15 minutes]
-2. [Step 2 - 1 hour]
-3. [Step 3 - 1 day]
+## Who Should Handle This
+- Primary: [Business role - Office Manager, CEO, etc.]
+- Support: [Available staff or vendors]
 
-## Evidence You Need
-- [Simple artifact list]
+## Quick Implementation Options
+### Option 1: Do It Yourself (2-4 hours)
+1. [Simple step with business context]
+2. [Delegation instruction]
+3. [Verification checkpoint]
 
-## Success Check
-- [ ] Can explain to auditor in 2 minutes
-- [ ] Works with current tools
-- [ ] Doesn't disrupt daily operations
+### Option 2: Hire Someone ($X - Y range)
+- What to ask vendors
+- How to verify completion
+- Ongoing maintenance requirements
+
+## Evidence for Auditors
+- [Simple documentation requirements]
+- [Where to store evidence]
+
+## Success Indicators
+- [ ] Can explain business impact in under 2 minutes
+- [ ] Implementation doesn't disrupt daily operations
+- [ ] Auditor can verify in under 15 minutes
 ```
 
-### Level 2: **Growth Accelerator Organizations**
-*Small/Medium + Developing/Mature + Standard/Enhanced + Intermediate/Advanced*
+### Level 2: **IT-Led Security Organizations**
+*IT-Led + Domain-Focused + Designated + Planned*
+
+**Security Context:**
+- IT department or IT manager owns security responsibilities
+- Security roles differentiated by domain (network security, application security, compliance)
+- Designated security point person within IT organization
+- Regular security activities scheduled alongside IT operations
 
 **Documentation Characteristics:**
-- **Balanced detail** with both quick-start and comprehensive sections
-- **Scalability guidance** for anticipated growth
-- **Integration roadmaps** for expanding tool ecosystems
-- **Moderate complexity** with clear progression paths
-- **Mixed audience support** (executives, managers, technical staff)
+- **IT-operations integration** guidance for incorporating security into existing workflows
+- **Technical implementation details** with IT infrastructure considerations
+- **Tool-specific guidance** for common IT management platforms
+- **Cross-domain coordination** instructions for network, systems, and application security
+- **Escalation procedures** for issues requiring business or vendor involvement
 
 **Example Control Documentation Structure:**
 ```markdown
-# Control [ID]: [Name] - Growth Level
+# Control [ID]: [Name] - IT-Led Level
 
-## Executive Summary
-[Business value and risk mitigation - 1 paragraph]
+## IT Operations Impact
+[How this control affects daily IT operations and infrastructure]
 
-## Implementation Approaches
-### Quick Start (Week 1)
-[Immediate actions]
+## Implementation by Domain
+### Network Security (IT Network Team)
+- [Specific network configuration steps]
+- [Tools: Firewalls, switches, monitoring]
 
-### Standard Implementation (Month 1)
-[Comprehensive approach]
+### Systems Security (IT Systems Team)
+- [Server and endpoint configuration]
+- [Tools: Group policy, patch management, antivirus]
 
-### Advanced Integration (Quarter 1)
-[Scalable, future-ready approach]
+### Application Security (IT Applications Team)
+- [Application-specific requirements]
+- [Tools: Web servers, databases, middleware]
 
-## Organizational Considerations
-- Team responsibilities
-- Process integration points
-- Change management needs
+## Technical Implementation Guide
+- Prerequisites and dependencies
+- Step-by-step configuration instructions
+- Testing and validation procedures
+- Troubleshooting common issues
 
-## Technology Integration
-- Current tool compatibility
-- Recommended enhancements
-- Future-state architecture
+## Integration with IT Processes
+- Change management integration
+- Incident response coordination
+- Backup and recovery considerations
+- Maintenance scheduling
 
-## Evidence Framework
-- Basic compliance artifacts
-- Management reporting
-- Continuous monitoring setup
+## Documentation and Evidence
+- Configuration baselines
+- Change logs and approvals
+- Test results and validation
+- Compliance reporting
+
+## Escalation Procedures
+- When to involve business leadership
+- Vendor escalation procedures
+- Security incident response triggers
 ```
 
-### Level 3: **Enterprise Optimizer Organizations**
-*Medium/Large + Mature/Advanced + Enhanced/Critical + Advanced/Leading*
+### Level 3: **Engineering-Led Security Organizations**
+*Engineering-Led + Function-Specialized + Structured + Integrated*
+
+**Security Context:**
+- Engineering teams integrate security into development, DevOps, and infrastructure operations
+- Specialized security roles like security architects, DevSecOps engineers, and compliance managers
+- Security council or committee with defined decision-making authority
+- Security operations integrated into engineering workflows and business processes
 
 **Documentation Characteristics:**
-- **Comprehensive coverage** with detailed implementation guidance
-- **Multi-framework integration** and cross-mapping
-- **Advanced assessment methodologies** and metrics
-- **Enterprise-scale considerations** and dependencies
-- **Continuous improvement frameworks** built-in
+- **Engineering workflow integration** with CI/CD, infrastructure-as-code, and automation
+- **Architecture and design patterns** for secure system development
+- **Cross-functional coordination** between development, operations, and security teams
+- **Metrics and measurement frameworks** for continuous security improvement
+- **Scalable implementation approaches** that grow with engineering practices
 
 **Example Control Documentation Structure:**
 ```markdown
-# Control [ID]: [Name] - Enterprise Level
+# Control [ID]: [Name] - Engineering-Led Level
 
-## Strategic Alignment
-- Business objective correlation
-- Risk register integration
-- Regulatory mapping
+## Engineering Integration Overview
+[How this control integrates with development and operations workflows]
 
-## Implementation Framework
-### Architecture Design
-[Enterprise architecture considerations]
+## Implementation by Engineering Function
+### Development Teams (Secure Coding)
+- [Code-level security requirements]
+- [IDE integrations and tooling]
+- [Code review and testing procedures]
 
-### Process Integration
-[Business process integration points]
+### DevOps Teams (Infrastructure Security)
+- [Infrastructure-as-code security]
+- [CI/CD pipeline security controls]
+- [Container and orchestration security]
 
-### Technology Stack
-[Comprehensive technology requirements]
+### Platform Teams (Security Architecture)
+- [Platform security patterns]
+- [Service mesh and API security]
+- [Observability and monitoring integration]
 
-### Governance Model
-[Roles, responsibilities, oversight]
+## Cross-Team Coordination
+- Security champions program
+- Security review processes
+- Incident response coordination
+- Knowledge sharing mechanisms
 
-## Multi-Framework Coordination
-- NIST CSF alignment
-- ISO 27001 mapping
-- SOC 2 correlation
-- Industry-specific requirements
+## Automation and Tooling
+- Automated security testing
+- Policy-as-code implementation
+- Security metrics collection
+- Compliance validation automation
 
-## Advanced Assessment
-- Quantitative metrics
-- Continuous monitoring
-- Risk correlation analysis
-- Predictive indicators
+## Measurement and Improvement
+- Security KPIs and SLIs
+- Performance impact assessment
+- Continuous improvement cycles
+- Engineering velocity metrics
 
-## Continuous Improvement
-- Maturity progression roadmap
-- Automation opportunities
-- Innovation integration
-
-## Enterprise Dependencies
-- Upstream/downstream impacts
-- Cross-functional coordination
-- Vendor/third-party considerations
+## Governance Integration
+- Security council representation
+- Architecture review board participation
+- Risk assessment and prioritization
+- Budget and resource allocation
 ```
 
-### Level 4: **Innovation Leader Organizations**
-*Large + Advanced + Critical + Leading*
+### Level 4: **InfoSec-Led Security Organizations**
+*InfoSec-Led + Practice-Expert + Autonomous + Continuous*
+
+**Security Context:**
+- Dedicated information security organization with specialized professionals
+- Deep practice expertise including threat hunters, forensics analysts, security researchers
+- Autonomous security organization with independent authority and budget
+- Always-on security operations with real-time threat response and continuous monitoring
+
+**Security Sub-Organization Maturity Levels:**
+- **4a: Generalist InfoSec** - Small dedicated security team handling all functions
+- **4b: Specialized InfoSec** - Security teams specialized by function (SOC, GRC, Architecture, etc.)
+- **4c: Advanced InfoSec** - Advanced capabilities like threat hunting, red team, security research
+- **4d: Security-as-a-Business** - Security organization that influences business strategy and industry
 
 **Documentation Characteristics:**
-- **Research-grade documentation** with emerging practices
-- **AI/ML integration guidance** and automation frameworks
-- **Industry leadership considerations** and thought leadership
-- **Zero-trust architecture** and advanced security models
-- **Experimental implementation** approaches and pilot frameworks
+- **Security professional expertise** assumptions and technical depth
+- **Threat-informed approaches** based on current threat landscape and intelligence
+- **Advanced security architectures** including zero-trust, SASE, and emerging models
+- **Security operations integration** with business continuity and risk management
+- **Industry leadership content** for thought leadership and standard-setting participation
 
 **Example Control Documentation Structure:**
 ```markdown
-# Control [ID]: [Name] - Innovation Leadership Level
+# Control [ID]: [Name] - InfoSec-Led Level
 
-## Strategic Innovation Impact
-- Industry influence considerations
-- Competitive advantage creation
-- Research and development integration
+## Security Organization Implementation
+[How different InfoSec sub-organizations approach this control]
 
-## Advanced Implementation Models
-### Traditional Enterprise Approach
-[Proven enterprise methods]
+## Implementation by Security Function
+### Security Operations Center (SOC)
+- [24/7 monitoring and response procedures]
+- [SIEM/SOAR integration and tuning]
+- [Threat hunting and investigation workflows]
 
-### Emerging Best Practices
-[Cutting-edge implementations]
+### Governance, Risk & Compliance (GRC)
+- [Risk assessment and treatment procedures]
+- [Compliance monitoring and reporting]
+- [Third-party risk management integration]
 
-### Research Pilot Opportunities
-[Experimental approaches]
+### Security Architecture & Engineering
+- [Security architecture patterns and standards]
+- [Technology evaluation and selection criteria]
+- [Integration with enterprise architecture]
 
-## AI/ML Integration Framework
-- Automated control implementation
-- Machine learning-enhanced monitoring
-- Predictive compliance modeling
-- Intelligent risk correlation
+### Incident Response & Forensics
+- [Advanced incident response procedures]
+- [Digital forensics and evidence handling]
+- [Threat intelligence integration]
 
-## Zero-Trust Architecture Integration
-- Never-trust principles
-- Continuous verification models
-- Micro-segmentation approaches
-- Identity-centric design
+## Threat-Informed Implementation
+- Current threat landscape considerations
+- Threat intelligence integration
+- Adversary tactics, techniques, and procedures (TTPs)
+- Industry-specific threat vectors
 
-## Industry Leadership Framework
-- Thought leadership opportunities
-- Standard-setting participation
-- Peer organization coordination
-- Knowledge sharing protocols
+## Advanced Security Models
+- Zero-trust architecture implementation
+- Security service edge (SASE) integration
+- AI/ML-enhanced security operations
+- Autonomous security response capabilities
 
-## Advanced Metrics and Analytics
-- Predictive compliance modeling
-- Risk correlation algorithms
-- Performance optimization
-- Continuous innovation measurement
+## Security Operations Integration
+- Business continuity coordination
+- Crisis management integration
+- Executive and board reporting
+- Legal and regulatory coordination
 
-## Future-State Vision
-- 5-year technology roadmap
-- Emerging threat preparation
-- Regulatory anticipation
-- Innovation laboratory setup
+## Professional Development & Leadership
+- Security team skill development
+- Industry engagement and thought leadership
+- Research and development initiatives
+- Knowledge sharing and mentoring programs
 ```
 
 ## Dynamic Documentation Generation Framework
@@ -239,56 +297,86 @@ Rather than providing static, one-size-fits-all documentation, the OMM dynamical
 ### Template Selection Algorithm
 
 ```yaml
-Maturity Assessment:
-  organizational_scale: [startup|small|medium|large]
-  cybersecurity_capability: [foundational|developing|mature|advanced]
-  regulatory_context: [minimal|standard|enhanced|critical]
-  technical_sophistication: [basic|intermediate|advanced|leading]
+Security_Maturity_Assessment:
+  security_ownership: [business_led|it_led|engineering_led|infosec_led]
+  specialization_depth: [generalist|domain_focused|function_specialized|practice_expert]
+  decision_authority: [informal|designated|structured|autonomous]
+  operations_maturity: [reactive|planned|integrated|continuous]
 
 Documentation_Level:
-  foundation: Scale <= small AND Capability <= developing
-  growth: Scale <= medium AND Capability <= mature
-  enterprise: Scale >= medium AND Capability >= mature
-  innovation: Scale = large AND Capability = advanced AND Technical = leading
+  business_led: security_ownership = business_led
+  it_led: security_ownership = it_led
+  engineering_led: security_ownership = engineering_led
+  infosec_led: security_ownership = infosec_led
 
 Template_Selection:
-  if Documentation_Level == "foundation":
-    use: simplified_templates/
-    focus: [quick_start, essential_only, resource_conscious]
-  elif Documentation_Level == "growth":
-    use: balanced_templates/
-    focus: [scalable, mixed_audience, growth_ready]
-  elif Documentation_Level == "enterprise":
-    use: comprehensive_templates/
-    focus: [detailed, multi_framework, enterprise_scale]
-  elif Documentation_Level == "innovation":
-    use: advanced_templates/
-    focus: [cutting_edge, research_grade, industry_leadership]
+  if Documentation_Level == "business_led":
+    use: business_friendly_templates/
+    focus: [executive_guidance, vendor_specifications, compliance_focused]
+    audience: [business_managers, executives, office_managers]
+  elif Documentation_Level == "it_led":
+    use: it_operations_templates/
+    focus: [technical_implementation, it_integration, domain_coordination]
+    audience: [it_managers, system_administrators, network_engineers]
+  elif Documentation_Level == "engineering_led":
+    use: engineering_workflow_templates/
+    focus: [automation, architecture, cross_team_coordination]
+    audience: [devops_engineers, security_architects, development_teams]
+  elif Documentation_Level == "infosec_led":
+    use: security_professional_templates/
+    focus: [threat_informed, advanced_security, security_operations]
+    audience: [security_analysts, security_engineers, ciso_staff]
+
+InfoSec_Sub_Level:
+  if Documentation_Level == "infosec_led":
+    if specialization_depth == "generalist":
+      sub_level: "4a_generalist_infosec"
+    elif specialization_depth == "function_specialized":
+      sub_level: "4b_specialized_infosec"
+    elif specialization_depth == "practice_expert" AND operations_maturity == "continuous":
+      sub_level: "4c_advanced_infosec"
+    elif decision_authority == "autonomous" AND operations_maturity == "continuous":
+      sub_level: "4d_security_as_business"
 ```
 
 ### Context-Adaptive Sections
 
-Each template includes **conditional sections** that appear based on maturity assessment:
+Each template includes **conditional sections** that appear based on security responsibility maturity:
 
 ```markdown
-{{#if maturity.level >= 2}}
-## Advanced Implementation Considerations
-[Complex implementation guidance]
+{{#if security_ownership == "business_led"}}
+## Vendor/Consultant Guidance
+[How to outsource implementation and what to expect]
 {{/if}}
 
-{{#if maturity.regulatory_context >= 3}}
-## Federal Compliance Requirements
-[NIST 800-171/800-53 specific guidance]
+{{#if security_ownership >= "it_led"}}
+## Technical Implementation Details
+[Step-by-step technical configuration guidance]
 {{/if}}
 
-{{#if maturity.technical_sophistication >= 3}}
+{{#if security_ownership >= "engineering_led"}}
 ## Automation and Integration Opportunities
-[Technical integration guidance]
+[CI/CD integration, infrastructure-as-code, automation frameworks]
 {{/if}}
 
-{{#if maturity.level == 4}}
-## Innovation and Research Opportunities
-[Cutting-edge implementation approaches]
+{{#if security_ownership == "infosec_led"}}
+## Threat Intelligence Integration
+[Current threat landscape considerations and threat-informed implementation]
+{{/if}}
+
+{{#if infosec_sub_level >= "4b_specialized_infosec"}}
+## Security Function Coordination
+[SOC, GRC, Architecture, and IR team coordination procedures]
+{{/if}}
+
+{{#if infosec_sub_level >= "4c_advanced_infosec"}}
+## Advanced Security Capabilities
+[Threat hunting, red team, security research integration]
+{{/if}}
+
+{{#if infosec_sub_level == "4d_security_as_business"}}
+## Strategic Business Integration
+[How security influences business strategy and industry leadership]
 {{/if}}
 ```
 
