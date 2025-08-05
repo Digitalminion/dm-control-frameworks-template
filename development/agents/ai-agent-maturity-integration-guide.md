@@ -1,4 +1,45 @@
+<!-- BEGIN AI HEADER: 45 LINES -->
+<!-- BEGIN AI FILE SUMMARY -->
+<!-- 
+    TOPICS: ai-agent-maturity, organizational-maturity, template-selection, content-adaptation
+    CONTENT: maturity-assessment, template-adaptation, organizational-context, ai-guidance
+    RELATED: development/agents/, methods/AGENT.md, context/organization/
+    RATING: advanced
+    PURPOSE: AI Agent Maturity Integration Guide and Template Selection Framework
+    UPDATE: High
+    Updated: 2025-08-05
+-->
+<!-- END AI FILE SUMMARY -->
+
+<!-- BEGIN AI COMMENT -->
+<!-- 
+    MATURITY INTEGRATION: This guide provides AI agents with a comprehensive framework
+    for understanding organizational maturity levels and adapting content accordingly.
+    It enables intelligent template selection and content customization based on
+    organizational context and security responsibility distribution.
+    
+    TEMPLATE SELECTION: The guide includes specific criteria for selecting appropriate
+    templates based on organizational maturity, ensuring content is relevant and
+    actionable for the target audience.
+-->
+<!-- END AI COMMENT -->
+
+<!-- BEGIN AI INSTRUCTION -->
+<!-- 
+    AI AGENTS: When using this maturity integration guide:
+    1. Always assess organizational context before selecting templates
+    2. Apply appropriate language and technical depth based on maturity level
+    3. Include conditional content sections based on organizational type
+    4. Validate template selections against organizational capabilities
+    5. Update content adaptations when organizational context changes
+    6. Maintain consistency with maturity-based content standards
+-->
+<!-- END AI INSTRUCTION -->
+<!-- END AI HEADER: 45 LINES -->
+
 # AI Agent Integration Guide: Maturity-Aware Template System
+
+> **Navigation:** [🏠 Root](../../README.md) › [📁 Development](../README.md) › [🤖 Agents](README.md) › **Maturity Integration Guide**
 
 ## Overview
 

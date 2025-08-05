@@ -30,6 +30,8 @@
 
 # Comprehensive Agentic Analysis: NIST Documentation Template Repository
 
+> **Navigation:** [🏠 Root](../../README.md) › [📁 Development](../README.md) › [📊 Analysis](README.md) › **Agentic Analysis**
+
 ## 🎯 **Executive Summary**
 
 This repository represents an **exceptionally well-designed foundation** for AI-optimized NIST documentation, but sits at a critical juncture where **massive agent-driven expansion opportunities** exist. The infrastructure is sophisticated and AI-ready, but the core deliverable—actual NIST control documentation—is missing entirely.

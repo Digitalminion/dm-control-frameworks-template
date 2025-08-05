@@ -31,6 +31,8 @@
 
 # Dual Agent System Setup Guide
 
+> **Navigation:** [🏠 Root](../../README.md) › [📁 Development](../README.md) › [🤖 Agents](README.md) › **Dual Agent Setup Guide**
+
 ## Overview
 
 This guide provides comprehensive instructions for setting up and using the dual-agent system for NIST documentation. The system consists of two specialized AI agents that work together to create and maintain high-quality documentation.

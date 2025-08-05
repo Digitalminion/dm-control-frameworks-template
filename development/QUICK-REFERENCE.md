@@ -1,32 +1,32 @@
 <!-- BEGIN AI HEADER: 35 LINES -->
 <!-- BEGIN AI FILE SUMMARY -->
 <!-- 
-    TOPICS: quick-reference, workflows, cheat-sheet, common-tasks
-    CONTENT: workflow-summaries, quick-links, essential-commands, user-pathways
-    RELATED: development/README.md, methods/, NAVIGATION.md
+    TOPICS: quick-reference, workflows, user-guides, navigation-shortcuts
+    CONTENT: fast-access, common-tasks, workflow-patterns, quick-fixes
+    RELATED: README.md, NAVIGATION.md, methods/, development/
     RATING: foundational
-    PURPOSE: Quick Reference Card for Common Repository Workflows
+    PURPOSE: Quick Reference Card for Common Workflows and Fast Access
     UPDATE: High
-    Updated: 2025-01-27
+    Updated: 2025-08-04
 -->
 <!-- END AI FILE SUMMARY -->
 
 <!-- BEGIN AI COMMENT -->
 <!-- 
-    QUICK REFERENCE: This file provides rapid access to common workflows and tasks
-    without requiring users to navigate through lengthy documentation. It serves
-    as a cheat sheet for frequent operations and essential information.
+    QUICK ACCESS: This file provides fast access to the most common workflows
+    and tasks in the repository. It's designed for users who need immediate
+    guidance without reading extensive documentation.
     
-    EFFICIENCY FOCUS: Organized by task type rather than documentation structure
-    to help users accomplish goals quickly. Each workflow includes only essential
-    steps and links to detailed guidance when needed.
+    WORKFLOW-FOCUSED: Content is organized by user intent and common tasks
+    rather than technical structure, making it easier to find what you need
+    quickly.
 -->
 <!-- END AI COMMENT -->
 
 <!-- BEGIN AI INSTRUCTION -->
 <!-- 
-    AI AGENTS: When updating quick reference:
-    1. Keep workflows to 3-5 steps maximum for quick consumption
+    AI AGENTS: When updating this quick reference:
+    1. Focus on the most common user workflows and tasks
     2. Include direct links to detailed documentation
     3. Update links when related files change
     4. Add new common workflows as they emerge
@@ -37,6 +37,8 @@
 <!-- END AI HEADER: 35 LINES -->
 
 # Quick Reference Card
+
+> **Navigation:** [🏠 Root](../README.md) › [📁 Development](README.md) › **Quick Reference**
 
 > **Fast Access to Common Workflows**
 

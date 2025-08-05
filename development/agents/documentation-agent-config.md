@@ -32,6 +32,8 @@
 
 # Documentation Agent Configuration
 
+> **Navigation:** [🏠 Root](../../README.md) › [📁 Development](../README.md) › [🤖 Agents](README.md) › **Documentation Agent Config**
+
 ## Agent Role: Documentation Specialist
 
 The Documentation Agent is responsible for creating and managing NIST documentation using the established template system. This agent focuses on content creation, quality assurance, and maintaining documentation standards.

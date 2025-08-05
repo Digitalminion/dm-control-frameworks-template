@@ -30,6 +30,8 @@
 
 # Continuous Agent System
 
+> **Navigation:** [🏠 Root](../../README.md) › [📁 Development](../README.md) › [🤖 Agents](README.md) › **Continuous Agent System**
+
 ## Overview
 
 Unlike reactive agents that only respond to commands, **continuous agents** run almost constantly, proactively monitoring, analyzing, and improving the repository. They operate in the background, continuously working to enhance documentation quality and repository effectiveness.

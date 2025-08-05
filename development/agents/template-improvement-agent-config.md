@@ -32,6 +32,8 @@
 
 # Template Improvement Agent Configuration
 
+> **Navigation:** [🏠 Root](../../README.md) › [📁 Development](../README.md) › [🤖 Agents](README.md) › **Template Improvement Agent Config**
+
 ## Agent Role: Template and Workflow Optimizer
 
 The Template Improvement Agent is responsible for enhancing the core template repository to make the documentation agent more effective. This agent focuses on template optimization, workflow improvement, and quality standards enhancement.
