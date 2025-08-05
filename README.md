@@ -66,6 +66,8 @@ dm-control-frameworks-template/
 └── controls/            # Control documentation (to be created)
 ```
 
+> **🧭 Need help navigating?** See the comprehensive [Navigation Hub](NAVIGATION.md) for user-specific pathways and complete site map.
+
 ## 🛠️ Key Features
 
 ### AI-Optimized Documentation

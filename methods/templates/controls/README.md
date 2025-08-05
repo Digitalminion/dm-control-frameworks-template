@@ -27,15 +27,10 @@
 
 <!-- BEGIN AI INSTRUCTION -->
 <!-- 
-    AI AGENTS: When working with control templates in this folder:
-    1. Follow the AI header standards from methods/agent.md
-    2. Use the complete template suite for comprehensive control documentation
-    3. Replace all placeholder text with actual content based on specific control
-    4. Apply organizational context from context/ folder for tailored documentation
-    5. Maintain consistency across all generated control documentation
-    6. Include cross-references between related controls and documentation
-    7. Validate quality and completeness before finalizing content
-    8. Update metadata fields and line counts accurately
+    AI AGENTS: For complete guidance see methods/agent.md.
+    Control templates focus: Use the complete 6-template suite for comprehensive
+    control documentation, replace placeholders with specific control content,
+    and apply organizational context from context/ folder.
 -->
 <!-- END AI INSTRUCTION -->
 <!-- END AI HEADER: 50 LINES --> 

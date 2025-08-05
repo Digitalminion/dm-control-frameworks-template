@@ -25,18 +25,10 @@
 
 <!-- BEGIN AI INSTRUCTION -->
 <!--
-    AI AGENTS: When working with 800-171 adoption documentation in this folder:
-    1. Follow the AI header standards from methods/agent.md
-    2. Consider organizational context from context/ folder
-    3. Apply our specific implementation approaches and constraints
-    4. Reference relevant control documentation from controls/ folder
-    5. Maintain consistency with our established patterns and standards
-    6. Consider risk-based implementation strategies
-    7. Address organizational capabilities and limitations
-    8. Monitor checkbox changes to trigger documentation creation/improvement
-    9. Create comprehensive documentation for newly checked items
-    10. Enhance existing documentation for items that remain checked
-    11. Coordinate with other framework implementations in frameworks/ folder
+    AI AGENTS: For complete guidance see methods/agent.md.
+    800-171 specific focus: Work with CUI protection controls across 14 families,
+    monitor checkbox changes to trigger documentation creation, and coordinate
+    with other frameworks in methods/adoption/frameworks/.
 -->
 <!-- END AI INSTRUCTION -->
 <!-- END AI HEADER: 65 LINES -->
